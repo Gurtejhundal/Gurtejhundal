@@ -1,12 +1,20 @@
 <!-- Profile README -->
 
-# Gurtejbir Singh
+<div align="center">
+  <a href="https://gurtejbirsingh.vercel.app/">
+    <img src="./assets/cyberpunk-profile-hero.svg" width="100%" alt="Gurtejbir Singh — full-stack engineering cyberpunk profile banner" />
+  </a>
+</div>
+
+<br />
+
+<div align="center">
 
 **Full-stack developer building product-focused web software and AI-assisted engineering tools.**
 
-I like projects that turn messy workflows into structured systems — whether that means converting a long learning roadmap into something trackable, or turning vague AI-agent behavior into explicit specialist workflows.
-
 [**Portfolio ↗**](https://gurtejbirsingh.vercel.app/) · [**All repositories ↗**](https://github.com/Gurtejhundal?tab=repositories)
+
+</div>
 
 ---
 
