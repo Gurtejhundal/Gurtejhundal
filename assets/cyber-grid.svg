@@ -1,261 +1,159 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
-  <title id="title">Gurtejbir Singh — endless outrun sun chase</title>
-  <desc id="desc">Animated retro cyberpunk scene with a rear-view 1980s wedge sports car driving toward a huge striped neon sunset over an endless moving grid highway.</desc>
+  <title id="title">Night Begins to Shine — endless outrun chase</title>
+  <desc id="desc">Animated retro cyberpunk hero with a rear-view 1980s wedge supercar endlessly chasing a giant striped neon sunset over a moving perspective grid.</desc>
 
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#080019"/>
       <stop offset="0.48" stop-color="#25004f"/>
-      <stop offset="0.76" stop-color="#5b0786"/>
-      <stop offset="1" stop-color="#090014"/>
+      <stop offset="0.78" stop-color="#6e048a"/>
+      <stop offset="1" stop-color="#130019"/>
     </linearGradient>
     <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffe95f"/>
-      <stop offset="0.34" stop-color="#ff9b57"/>
-      <stop offset="0.67" stop-color="#ff3d86"/>
-      <stop offset="1" stop-color="#ff1dbd"/>
+      <stop offset="0" stop-color="#fff16a"/>
+      <stop offset="0.38" stop-color="#ff9f5f"/>
+      <stop offset="0.72" stop-color="#ff3f8f"/>
+      <stop offset="1" stop-color="#ff1fd0"/>
     </linearGradient>
-    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#130022"/>
-      <stop offset="0.42" stop-color="#080011"/>
-      <stop offset="1" stop-color="#020005"/>
+    <linearGradient id="car" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5f177c"/>
+      <stop offset="0.28" stop-color="#be2bb6"/>
+      <stop offset="0.58" stop-color="#5f1683"/>
+      <stop offset="1" stop-color="#150420"/>
     </linearGradient>
-    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ff3ce6"/>
-      <stop offset="0.2" stop-color="#7c27cf"/>
-      <stop offset="0.48" stop-color="#28104e"/>
-      <stop offset="0.72" stop-color="#5c1c8f"/>
-      <stop offset="1" stop-color="#10051d"/>
+    <linearGradient id="carTop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f34ee0"/>
+      <stop offset="0.52" stop-color="#8622ad"/>
+      <stop offset="1" stop-color="#33104d"/>
     </linearGradient>
-    <linearGradient id="bodyTop" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#3b0e68"/>
-      <stop offset="0.45" stop-color="#dc42eb"/>
-      <stop offset="0.7" stop-color="#7d25bc"/>
-      <stop offset="1" stop-color="#1b072b"/>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#140522"/>
+      <stop offset="1" stop-color="#040109"/>
     </linearGradient>
-    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#11031f"/>
-      <stop offset="1" stop-color="#020006"/>
+    <linearGradient id="cta" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f6ff"/>
+      <stop offset="0.5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ff2bd6"/>
     </linearGradient>
-    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00efff"/>
-      <stop offset="0.42" stop-color="#f2edff"/>
-      <stop offset="1" stop-color="#ff43d7"/>
-    </linearGradient>
-    <radialGradient id="horizonGlow">
-      <stop offset="0" stop-color="#ff2bd6" stop-opacity="0.8"/>
-      <stop offset="0.5" stop-color="#9e29ff" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#50107f" stop-opacity="0"/>
-    </radialGradient>
     <radialGradient id="tailGlow">
-      <stop offset="0" stop-color="#fff3bc" stop-opacity="1"/>
-      <stop offset="0.2" stop-color="#ff644f" stop-opacity="1"/>
-      <stop offset="0.62" stop-color="#ff174f" stop-opacity="0.65"/>
-      <stop offset="1" stop-color="#ff174f" stop-opacity="0"/>
+      <stop offset="0" stop-color="#fff6bf" stop-opacity="1"/>
+      <stop offset="0.28" stop-color="#ff4b7d" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ff166f" stop-opacity="0"/>
     </radialGradient>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="5" result="b"/>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="bigGlow" x="-100%" y="-100%" width="300%" height="300%">
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="22" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="carShadow" x="-30%" y="-100%" width="160%" height="300%">
-      <feGaussianBlur stdDeviation="12"/>
-    </filter>
-    <clipPath id="scene"><rect x="20" y="20" width="1160" height="610" rx="26"/></clipPath>
-    <clipPath id="sunClip"><circle cx="600" cy="245" r="158"/></clipPath>
-    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <clipPath id="screen"><rect x="18" y="18" width="1164" height="614" rx="26"/></clipPath>
+    <clipPath id="sunClip"><circle cx="600" cy="235" r="170"/></clipPath>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
       <rect width="4" height="2" fill="#000" opacity="0.18"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="650" rx="30" fill="#030007"/>
-  <rect x="10" y="10" width="1180" height="630" rx="28" fill="none" stroke="#3b1263" stroke-width="2"/>
+  <rect width="1200" height="650" rx="30" fill="#050009"/>
+  <g clip-path="url(#screen)">
+    <rect x="18" y="18" width="1164" height="614" fill="url(#sky)"/>
 
-  <g clip-path="url(#scene)">
-    <rect x="20" y="20" width="1160" height="610" fill="url(#sky)"/>
-
-    <!-- sparse stars -->
-    <g fill="#d8faff">
-      <circle cx="103" cy="87" r="1.2"><animate attributeName="opacity" values=".2;1;.2" dur="3.2s" repeatCount="indefinite"/></circle>
-      <circle cx="206" cy="129" r="1"><animate attributeName="opacity" values="1;.25;1" dur="2.6s" repeatCount="indefinite"/></circle>
-      <circle cx="318" cy="74" r="1.3"><animate attributeName="opacity" values=".2;.9;.2" dur="4.3s" repeatCount="indefinite"/></circle>
-      <circle cx="873" cy="84" r="1.2"><animate attributeName="opacity" values=".15;1;.15" dur="3.7s" repeatCount="indefinite"/></circle>
-      <circle cx="1007" cy="126" r="1"><animate attributeName="opacity" values=".9;.2;.9" dur="2.9s" repeatCount="indefinite"/></circle>
-      <circle cx="1111" cy="71" r="1.4"><animate attributeName="opacity" values=".2;1;.2" dur="4.6s" repeatCount="indefinite"/></circle>
-    </g>
-
-    <!-- restrained HUD identity -->
-    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" letter-spacing="3">
-      <text x="48" y="56" fill="#00f4ff" font-size="12">GURTEJBIR // NIGHT DRIVE</text>
-      <text x="1152" y="56" text-anchor="end" fill="#ff6bde" font-size="12">OUTRUN LOOP // ∞</text>
-    </g>
-
-    <!-- giant striped sun -->
-    <ellipse cx="600" cy="310" rx="320" ry="90" fill="url(#horizonGlow)" filter="url(#bigGlow)" opacity="0.55">
-      <animate attributeName="opacity" values=".38;.68;.38" dur="4.2s" repeatCount="indefinite"/>
-    </ellipse>
-    <circle cx="600" cy="245" r="178" fill="#ff2cc9" opacity="0.16" filter="url(#bigGlow)">
-      <animate attributeName="r" values="174;188;174" dur="4.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".10;.26;.10" dur="4.2s" repeatCount="indefinite"/>
+    <circle cx="600" cy="235" r="205" fill="#ff2bd6" opacity="0.18" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="0.12;0.28;0.12" dur="4s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="600" cy="245" r="158" fill="url(#sun)" filter="url(#glow)"/>
-    <g clip-path="url(#sunClip)" fill="#4b0b67">
-      <rect x="430" y="263" width="340" height="7"/>
-      <rect x="430" y="282" width="340" height="9"/>
-      <rect x="430" y="305" width="340" height="11"/>
-      <rect x="430" y="332" width="340" height="14"/>
-      <rect x="430" y="364" width="340" height="18"/>
-      <rect x="430" y="402" width="340" height="22"/>
+    <circle cx="600" cy="235" r="170" fill="url(#sun)" filter="url(#glow)"/>
+    <g clip-path="url(#sunClip)" fill="#6b0c72">
+      <rect x="415" y="230" width="370" height="8"/>
+      <rect x="415" y="251" width="370" height="10"/>
+      <rect x="415" y="276" width="370" height="12"/>
+      <rect x="415" y="305" width="370" height="15"/>
+      <rect x="415" y="339" width="370" height="18"/>
+      <rect x="415" y="378" width="370" height="22"/>
     </g>
 
-    <!-- horizon -->
-    <path d="M20 382 H1180" stroke="#ff28d7" stroke-width="3" filter="url(#glow)"/>
-    <path d="M20 386 H1180" stroke="#7125ba" stroke-width="1" opacity="0.8"/>
+    <path d="M0 385 H1200 V650 H0 Z" fill="#090014"/>
 
-    <!-- endless road/grid -->
-    <rect x="20" y="384" width="1160" height="246" fill="url(#road)"/>
-    <g stroke-linecap="round">
-      <path d="M600 384 L40 650" stroke="#ff22d4" stroke-width="2.5" opacity="0.9"/>
-      <path d="M600 384 L180 650" stroke="#a92cff" stroke-width="2" opacity="0.8"/>
-      <path d="M600 384 L320 650" stroke="#7c2cda" stroke-width="1.7" opacity="0.74"/>
-      <path d="M600 384 L455 650" stroke="#4b45c9" stroke-width="1.5" opacity="0.68"/>
-      <path d="M600 384 L745 650" stroke="#4b45c9" stroke-width="1.5" opacity="0.68"/>
-      <path d="M600 384 L880 650" stroke="#7c2cda" stroke-width="1.7" opacity="0.74"/>
-      <path d="M600 384 L1020 650" stroke="#a92cff" stroke-width="2" opacity="0.8"/>
-      <path d="M600 384 L1160 650" stroke="#ff22d4" stroke-width="2.5" opacity="0.9"/>
+    <g stroke="#ff2bd6" opacity="0.7" fill="none">
+      <path d="M600 385 L0 650"/><path d="M600 385 L130 650"/><path d="M600 385 L260 650"/><path d="M600 385 L390 650"/><path d="M600 385 L520 650"/>
+      <path d="M600 385 L680 650"/><path d="M600 385 L810 650"/><path d="M600 385 L940 650"/><path d="M600 385 L1070 650"/><path d="M600 385 L1200 650"/>
     </g>
-    <g fill="none" stroke="#db2bd4" stroke-width="1.5" opacity="0.78">
-      <path d="M20 402 H1180"><animateTransform attributeName="transform" type="translate" values="0 -12;0 34" dur="1.05s" repeatCount="indefinite"/></path>
-      <path d="M20 425 H1180"><animateTransform attributeName="transform" type="translate" values="0 -8;0 48" dur="1.05s" repeatCount="indefinite"/></path>
-      <path d="M20 455 H1180"><animateTransform attributeName="transform" type="translate" values="0 -4;0 68" dur="1.05s" repeatCount="indefinite"/></path>
-      <path d="M20 493 H1180"><animateTransform attributeName="transform" type="translate" values="0 0;0 92" dur="1.05s" repeatCount="indefinite"/></path>
-      <path d="M20 541 H1180"><animateTransform attributeName="transform" type="translate" values="0 0;0 120" dur="1.05s" repeatCount="indefinite"/></path>
-      <path d="M20 600 H1180"><animateTransform attributeName="transform" type="translate" values="0 0;0 150" dur="1.05s" repeatCount="indefinite"/></path>
+    <g stroke="#00f6ff" opacity="0.32" fill="none">
+      <path d="M0 405 H1200"><animateTransform attributeName="transform" type="translate" values="0 0;0 70" dur="1.05s" repeatCount="indefinite"/></path>
+      <path d="M0 438 H1200"><animateTransform attributeName="transform" type="translate" values="0 0;0 90" dur="1.05s" repeatCount="indefinite"/></path>
+      <path d="M0 480 H1200"><animateTransform attributeName="transform" type="translate" values="0 0;0 112" dur="1.05s" repeatCount="indefinite"/></path>
+      <path d="M0 535 H1200"><animateTransform attributeName="transform" type="translate" values="0 0;0 138" dur="1.05s" repeatCount="indefinite"/></path>
+      <path d="M0 605 H1200"><animateTransform attributeName="transform" type="translate" values="0 0;0 166" dur="1.05s" repeatCount="indefinite"/></path>
     </g>
 
-    <!-- moving road-center traces -->
-    <path d="M600 392 L600 650" stroke="#f6dfff" stroke-width="2" stroke-dasharray="8 28" opacity="0.42">
-      <animate attributeName="stroke-dashoffset" values="0;-144" dur="0.72s" repeatCount="indefinite"/>
-    </path>
-
-    <!-- speed streaks -->
-    <g stroke-linecap="round" opacity="0.7">
-      <path d="M160 445 L82 567" stroke="#ff2bd6" stroke-width="3"><animateTransform attributeName="transform" type="translate" values="0 -130;0 160" dur="0.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="0.9s" repeatCount="indefinite"/></path>
-      <path d="M1040 435 L1122 566" stroke="#00eaff" stroke-width="3"><animateTransform attributeName="transform" type="translate" values="0 -150;0 165" dur="1.08s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.8;0" dur="1.08s" repeatCount="indefinite"/></path>
-      <path d="M270 505 L218 602" stroke="#8f34ff" stroke-width="2"><animateTransform attributeName="transform" type="translate" values="0 -170;0 120" dur="0.76s" repeatCount="indefinite"/></path>
-      <path d="M930 500 L986 603" stroke="#ff27c9" stroke-width="2"><animateTransform attributeName="transform" type="translate" values="0 -150;0 135" dur="0.82s" repeatCount="indefinite"/></path>
-    </g>
-
-    <!-- car road shadow -->
-    <ellipse cx="600" cy="584" rx="235" ry="38" fill="#000" opacity="0.82" filter="url(#carShadow)"/>
-    <ellipse cx="600" cy="585" rx="185" ry="20" fill="#ff22ca" opacity="0.12" filter="url(#bigGlow)">
-      <animate attributeName="rx" values="175;190;175" dur="1.15s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".08;.2;.08" dur="1.15s" repeatCount="indefinite"/>
-    </ellipse>
-
-    <!-- rear-view wedge supercar -->
     <g id="car">
-      <animateTransform attributeName="transform" type="translate" values="0 0;-4 -2;3 -4;0 0" keyTimes="0;.32;.68;1" dur="2.6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-4 -2;4 -3;0 0" dur="2.8s" repeatCount="indefinite"/>
 
-      <!-- rear tires -->
-      <ellipse cx="438" cy="550" rx="38" ry="58" fill="#030005" stroke="#8d8aa0" stroke-width="3"/>
-      <ellipse cx="762" cy="550" rx="38" ry="58" fill="#030005" stroke="#8d8aa0" stroke-width="3"/>
-      <ellipse cx="438" cy="550" rx="25" ry="43" fill="#16111d" stroke="#d8d2dd" stroke-width="4"/>
-      <ellipse cx="762" cy="550" rx="25" ry="43" fill="#16111d" stroke="#d8d2dd" stroke-width="4"/>
-      <path d="M425 514 Q438 505 451 514" stroke="#f4eff7" stroke-width="4" fill="none" opacity="0.7"/>
-      <path d="M749 514 Q762 505 775 514" stroke="#f4eff7" stroke-width="4" fill="none" opacity="0.7"/>
+      <ellipse cx="600" cy="574" rx="245" ry="34" fill="#000" opacity="0.6"/>
+      <ellipse cx="600" cy="568" rx="215" ry="24" fill="#ff2bd6" opacity="0.14" filter="url(#softGlow)"/>
 
-      <!-- body mass / wide haunches -->
-      <path d="M390 533 Q403 487 445 461 Q488 437 548 431 L652 431 Q712 437 755 461 Q797 487 810 533 L799 571 Q760 590 700 596 H500 Q440 590 401 571 Z" fill="url(#body)" stroke="url(#chrome)" stroke-width="2.4"/>
+      <ellipse cx="407" cy="542" rx="48" ry="74" fill="#050108"/>
+      <ellipse cx="793" cy="542" rx="48" ry="74" fill="#050108"/>
+      <ellipse cx="407" cy="542" rx="28" ry="58" fill="#1f1630" stroke="#d8d7ee" stroke-width="5"/>
+      <ellipse cx="793" cy="542" rx="28" ry="58" fill="#1f1630" stroke="#d8d7ee" stroke-width="5"/>
+      <ellipse cx="407" cy="542" rx="15" ry="39" fill="#0a0710"/>
+      <ellipse cx="793" cy="542" rx="15" ry="39" fill="#0a0710"/>
 
-      <!-- upper deck -->
-      <path d="M467 469 Q511 425 600 418 Q689 425 733 469 L696 493 H504 Z" fill="url(#bodyTop)" stroke="#d34ce6" stroke-width="1.8"/>
-      <path d="M500 462 Q535 431 600 427 Q665 431 700 462 L669 477 H531 Z" fill="url(#glass)" stroke="#6b36a8" stroke-width="2"/>
-      <path d="M534 459 Q562 438 600 436 Q638 438 666 459" fill="none" stroke="#00eaff" stroke-width="1.5" opacity="0.5"/>
+      <path d="M375 520 Q395 472 457 448 L520 429 H680 L743 448 Q805 472 825 520 L804 570 Q755 589 691 596 H509 Q445 589 396 570 Z" fill="url(#car)" stroke="#ff70e7" stroke-width="3"/>
+      <path d="M472 449 L521 409 H679 L728 449 L690 474 H510 Z" fill="url(#carTop)" stroke="#9f4bea" stroke-width="2"/>
+      <path d="M510 431 L543 402 H657 L690 431 L657 452 H543 Z" fill="url(#glass)" stroke="#d861ff" stroke-width="2"/>
 
-      <!-- iconic rear wing -->
-      <path d="M394 430 H806" stroke="#07010d" stroke-width="17" stroke-linecap="round"/>
-      <path d="M410 426 H790" stroke="#8d2bc5" stroke-width="4" stroke-linecap="round" opacity="0.65"/>
-      <path d="M440 430 L454 467" stroke="#12031c" stroke-width="12"/>
-      <path d="M760 430 L746 467" stroke="#12031c" stroke-width="12"/>
-      <path d="M440 430 L454 467" stroke="#c13be2" stroke-width="2" opacity="0.55"/>
-      <path d="M760 430 L746 467" stroke="#c13be2" stroke-width="2" opacity="0.55"/>
+      <path d="M407 477 H793" stroke="#11031a" stroke-width="12"/>
+      <path d="M374 448 H826" stroke="#050108" stroke-width="12" stroke-linecap="square"/>
+      <path d="M403 440 H797" stroke="#8d27be" stroke-width="10" stroke-linecap="square"/>
+      <path d="M432 439 L447 405 H466 L456 439" fill="#120319" stroke="#7d239f" stroke-width="2"/>
+      <path d="M768 439 L753 405 H734 L744 439" fill="#120319" stroke="#7d239f" stroke-width="2"/>
 
-      <!-- rear fascia -->
-      <path d="M423 509 Q480 493 600 493 Q720 493 777 509 L764 553 Q706 565 600 565 Q494 565 436 553 Z" fill="#08000f" opacity="0.96" stroke="#53206f" stroke-width="1.4"/>
-      <path d="M470 532 H730" stroke="#8b2a9f" stroke-width="2" opacity="0.6"/>
+      <path d="M401 516 H799 L782 560 Q745 573 693 579 H507 Q455 573 418 560 Z" fill="#11031a" stroke="#63226e" stroke-width="2"/>
+      <path d="M455 527 H745 L728 557 H472 Z" fill="#050108" stroke="#2e0c3d" stroke-width="2"/>
 
-      <!-- taillight glow fields -->
-      <ellipse cx="480" cy="523" rx="66" ry="31" fill="url(#tailGlow)" opacity="0.34" filter="url(#bigGlow)">
-        <animate attributeName="opacity" values=".22;.46;.22" dur="1.1s" repeatCount="indefinite"/>
-      </ellipse>
-      <ellipse cx="720" cy="523" rx="66" ry="31" fill="url(#tailGlow)" opacity="0.34" filter="url(#bigGlow)">
-        <animate attributeName="opacity" values=".22;.46;.22" dur="1.1s" repeatCount="indefinite"/>
-      </ellipse>
+      <rect x="430" y="512" width="62" height="20" rx="2" fill="#ff174f" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.78;1;0.78" dur="0.8s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="500" y="512" width="48" height="20" rx="2" fill="#ff174f" filter="url(#glow)">
+        <animate attributeName="opacity" values="1;0.8;1" dur="0.8s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="652" y="512" width="48" height="20" rx="2" fill="#ff174f" filter="url(#glow)">
+        <animate attributeName="opacity" values="1;0.8;1" dur="0.8s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="708" y="512" width="62" height="20" rx="2" fill="#ff174f" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.78;1;0.78" dur="0.8s" repeatCount="indefinite"/>
+      </rect>
 
-      <!-- segmented rectangular taillights -->
-      <g fill="#ff294c" stroke="#ffbd8e" stroke-width="1" filter="url(#glow)">
-        <rect x="438" y="511" width="28" height="21" rx="2"/>
-        <rect x="472" y="511" width="28" height="21" rx="2"/>
-        <rect x="506" y="511" width="28" height="21" rx="2"/>
-        <rect x="666" y="511" width="28" height="21" rx="2"/>
-        <rect x="700" y="511" width="28" height="21" rx="2"/>
-        <rect x="734" y="511" width="28" height="21" rx="2"/>
-      </g>
-      <g fill="#fff4bf" opacity="0.72">
-        <rect x="442" y="514" width="6" height="15" rx="1"/>
-        <rect x="476" y="514" width="6" height="15" rx="1"/>
-        <rect x="510" y="514" width="6" height="15" rx="1"/>
-        <rect x="670" y="514" width="6" height="15" rx="1"/>
-        <rect x="704" y="514" width="6" height="15" rx="1"/>
-        <rect x="738" y="514" width="6" height="15" rx="1"/>
-      </g>
+      <ellipse cx="461" cy="522" rx="55" ry="30" fill="url(#tailGlow)" opacity="0.24"/>
+      <ellipse cx="739" cy="522" rx="55" ry="30" fill="url(#tailGlow)" opacity="0.24"/>
 
-      <!-- rear bumper / diffuser -->
-      <path d="M445 557 Q510 572 600 572 Q690 572 755 557 L741 580 Q674 592 600 592 Q526 592 459 580 Z" fill="#030006" stroke="#6d276f" stroke-width="1.6"/>
-      <path d="M520 572 L534 591 M558 575 L566 594 M642 575 L634 594 M680 572 L666 591" stroke="#291133" stroke-width="5"/>
+      <path d="M461 562 H518 L500 580 H442 Z" fill="#050108"/>
+      <path d="M682 562 H739 L758 580 H700 Z" fill="#050108"/>
+      <rect x="540" y="565" width="38" height="12" rx="5" fill="#0b0710" stroke="#b6b5c3" stroke-width="3"/>
+      <rect x="622" y="565" width="38" height="12" rx="5" fill="#0b0710" stroke="#b6b5c3" stroke-width="3"/>
+      <path d="M552 578 l-13 20 21 -12 Z" fill="#ff8f53" opacity="0.75">
+        <animate attributeName="opacity" values="0;0.9;0" dur="0.55s" repeatCount="indefinite"/>
+      </path>
+      <path d="M648 578 l13 20 -21 -12 Z" fill="#ff8f53" opacity="0.75">
+        <animate attributeName="opacity" values="0.9;0;0.9" dur="0.55s" repeatCount="indefinite"/>
+      </path>
 
-      <!-- plate -->
-      <rect x="560" y="536" width="80" height="23" rx="4" fill="#020005" stroke="#00d9eb" stroke-width="1.2"/>
-      <text x="600" y="552" text-anchor="middle" fill="#00efff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2">GURTEJ</text>
-
-      <!-- twin exhausts -->
-      <ellipse cx="505" cy="577" rx="17" ry="8" fill="#050009" stroke="#c7c2cf" stroke-width="2"/>
-      <ellipse cx="695" cy="577" rx="17" ry="8" fill="#050009" stroke="#c7c2cf" stroke-width="2"/>
-      <ellipse cx="505" cy="579" rx="8" ry="4" fill="#00eaff" opacity="0.62" filter="url(#glow)">
-        <animate attributeName="opacity" values=".15;.85;.15" dur=".42s" repeatCount="indefinite"/>
-        <animate attributeName="rx" values="5;11;5" dur=".42s" repeatCount="indefinite"/>
-      </ellipse>
-      <ellipse cx="695" cy="579" rx="8" ry="4" fill="#ff2bd6" opacity="0.62" filter="url(#glow)">
-        <animate attributeName="opacity" values=".15;.85;.15" dur=".47s" repeatCount="indefinite"/>
-        <animate attributeName="rx" values="5;11;5" dur=".47s" repeatCount="indefinite"/>
-      </ellipse>
-
-      <!-- body highlights -->
-      <path d="M416 500 Q487 452 555 444" stroke="#ff5df0" stroke-width="3" fill="none" opacity="0.72"/>
-      <path d="M784 501 Q713 452 646 444" stroke="#00eaff" stroke-width="2.4" fill="none" opacity="0.55"/>
-      <path d="M457 566 Q520 580 600 580 Q680 580 743 566" stroke="#ff39ca" stroke-width="2" fill="none" opacity="0.45"/>
+      <path d="M423 486 Q476 456 542 448" stroke="#ff66ea" stroke-width="3" opacity="0.7"/>
+      <path d="M777 486 Q724 456 658 448" stroke="#7d35ff" stroke-width="3" opacity="0.6"/>
     </g>
 
-    <!-- footer transmission -->
-    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="middle">
-      <text x="600" y="620" fill="#ffdbfa" font-size="12" letter-spacing="5">CHASE THE SUN // BUILD UNTIL DAWN</text>
+    <g stroke-linecap="round" opacity="0.65">
+      <path d="M174 438 l-95 125" stroke="#ff2bd6" stroke-width="3"><animateTransform attributeName="transform" type="translate" values="0 -120;0 190" dur="0.92s" repeatCount="indefinite"/></path>
+      <path d="M1030 430 l95 126" stroke="#00f6ff" stroke-width="3"><animateTransform attributeName="transform" type="translate" values="0 -140;0 190" dur="1.02s" repeatCount="indefinite"/></path>
     </g>
 
-    <!-- CRT treatment -->
-    <rect x="20" y="20" width="1160" height="610" fill="url(#scan)" opacity="0.58"/>
-    <rect x="20" y="32" width="1160" height="3" fill="#e9ffff" opacity="0.45" filter="url(#glow)">
-      <animate attributeName="y" values="32;625;32" dur="6.4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;.48;.08;0" dur="6.4s" repeatCount="indefinite"/>
+    <text x="600" y="92" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="62" font-weight="900" letter-spacing="7" fill="url(#cta)" filter="url(#glow)">NIGHT BEGINS TO SHINE</text>
+
+    <rect x="18" y="18" width="1164" height="614" fill="url(#scanlines)" opacity="0.42"/>
+    <rect x="18" y="32" width="1164" height="3" fill="#ffffff" opacity="0.45" filter="url(#glow)">
+      <animate attributeName="y" values="32;628;32" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.5;0.08;0" dur="6s" repeatCount="indefinite"/>
     </rect>
-    <g opacity="0">
-      <rect x="80" y="108" width="1040" height="7" fill="#00f4ff"/>
-      <rect x="238" y="154" width="720" height="5" fill="#ff2bd6"/>
-      <animate attributeName="opacity" values="0;0;.5;0;0" keyTimes="0;.72;.735;.75;1" dur="5.3s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0 0;0 0;18 -4;-15 3;0 0" keyTimes="0;.72;.735;.75;1" dur="5.3s" repeatCount="indefinite"/>
-    </g>
   </g>
 </svg>
