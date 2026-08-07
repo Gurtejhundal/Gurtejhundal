@@ -1,108 +1,106 @@
 <!--
-  ╔══════════════════════════════════════════════════════════════════╗
-  ║  GURTEJBIR // PROFILE NODE                                    ║
-  ║  Theme: cyberpunk / terminal / neural HUD                      ║
-  ║  Rule: signal > decoration                                    ║
-  ╚══════════════════════════════════════════════════════════════════╝
+  GURTEJBIR // RETRO-FUTURE PROFILE NODE
+  Visual direction: 1980s synthwave × CRT broadcast × cyberpunk engineering console
+  Rule: atmosphere first, clutter never.
 -->
 
 <div align="center">
-  <img src="./assets/cyber-grid.svg" width="100%" alt="Animated cyberpunk banner for Gurtejbir Singh" />
+  <img src="./assets/cyber-grid.svg" width="100%" alt="Gurtejbir Singh — animated retro cyberpunk profile banner" />
 </div>
 
 <div align="center">
-  <a href="https://gurtejbirsingh.vercel.app/">
-    <img src="https://img.shields.io/badge/PORTFOLIO-ENTER_THE_GRID-00f0ff?style=for-the-badge&labelColor=05030c" alt="Portfolio" />
-  </a>
-  <a href="https://github.com/Gurtejhundal?tab=repositories">
-    <img src="https://img.shields.io/badge/REPOSITORIES/-%2FDEV%2FNULL-ff2bd6?style=for-the-badge&labelColor=05030c" alt="Repositories" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=Gurtejhundal&style=for-the-badge&color=7c3aed&label=PROFILE+SIGNALS" alt="Profile views" />
+
+[![PORTFOLIO](https://img.shields.io/badge/PORTFOLIO-ENTER_THE_NIGHT-00F6FF?style=for-the-badge&labelColor=05010F)](https://gurtejbirsingh.vercel.app/)
+[![REPOS](https://img.shields.io/badge/ARCHIVES-OPEN_REPOSITORIES-FF2BD6?style=for-the-badge&labelColor=05010F)](https://github.com/Gurtejhundal?tab=repositories)
+![PROFILE SIGNAL](https://komarev.com/ghpvc/?username=Gurtejhundal&style=for-the-badge&color=7F3CFF&label=SIGNAL+HITS)
+
 </div>
 
-<br/>
-
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2400&pause=650&color=00F0FF&center=true&vCenter=true&repeat=true&width=980&height=45&lines=BUILDING+SYSTEMS+THAT+FEEL+SLIGHTLY+ILLEGAL;AI+AGENTS+%E2%80%A2+FULL-STACK+PRODUCTS+%E2%80%A2+CINEMATIC+UI;SHIP+%3E+TALK.+VERIFY+%3E+ASSUME.+ITERATE+%3E+COPE.;CURRENT+SIDE+QUEST%3A+400+DAYS+OF+DSA" alt="Animated typing introduction" />
-  </a>
-</div>
+<p align="center">
+  <code>ENGINEER BY DAY // BUILDER AFTER MIDNIGHT</code>
+  &nbsp;·&nbsp;
+  <code>AI × FULL-STACK × PRODUCT × MOTION</code>
+</p>
 
 ---
 
-## `01 // BOOT_SEQUENCE`
+## `01 // THE TRANSMISSION`
 
-<img src="./assets/terminal.svg" width="100%" alt="Animated terminal mission log" />
+> **I build software that should feel like a machine from the future discovered in 1987.**
 
-> I like software with a pulse: products that are technically sound, visually deliberate, and hostile to boring defaults.
+I care about the part where engineering and taste collide: systems that are correct underneath, deliberate on the surface, and impossible to confuse with a default template.
 
 ```txt
-IDENTITY      Gurtejbir Singh
-DISCIPLINE    B.Tech CSE — AI / ML
-OPERATING ON  Full-stack engineering · AI agents · product design · motion systems
-BIAS          Build the thing → test the thing → make the thing feel expensive
-CURRENT ARC   400-day DSA challenge + deeper systems / AI engineering
-STATUS        [██████████████████░░] perpetually compiling
+CALLSIGN       GURTEJBIR SINGH
+DISCIPLINE     B.Tech CSE — AI / ML
+FREQUENCY      Full-stack engineering · AI systems · product design · motion
+CURRENT ARC    400 days of DSA + deeper systems / AI engineering
+DEFAULT MODE   inspect → build → test → refine → ship
+AESTHETIC      midnight / CRT / synthwave / high-signal interfaces
 ```
+
+<div align="center">
+  <img src="./assets/terminal.svg" width="100%" alt="Animated retro broadcast terminal for Gurtejbir Singh" />
+</div>
 
 ---
 
-## `02 // MISSION_LOGS`
+## `02 // PRIME MISSIONS`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ [Website Agent Skills](https://github.com/Gurtejhundal/VibeMaxing)
+### `VIBEMAXING // AGENT SYSTEM`
 
-A modular execution system for serious website work.
+**[Website Agent Skills →](https://github.com/Gurtejhundal/VibeMaxing)**
 
-`24 specialist AI-agent skills` · `8 workflows`
+A specialist execution layer for serious website work.
 
-Design systems, responsive reconstruction, motion architecture, domain UX, accessibility, visual QA, interaction QA, performance and deployment verification.
+`24 skills` · `8 workflows` · `responsive reconstruction` · `motion` · `QA`
 
-**Why it exists:** generic “frontend agent” prompts are too vague. This turns the work into explicit specialist roles with acceptance criteria.
+Built because “make the frontend better” is not an engineering specification. The system turns vague web work into scoped roles, checks, and acceptance criteria.
 
 </td>
 <td width="50%" valign="top">
 
-### 🧠 [Ghost Engineer](https://github.com/Gurtejhundal/Ghost-Engineer)
+### `GHOST ENGINEER // REVIEW COUNCIL`
 
-A GitHub-repository analysis MVP built around a four-agent engineering council:
+**[Ghost Engineer →](https://github.com/Gurtejhundal/Ghost-Engineer)**
+
+A repository-analysis MVP using a four-agent engineering council.
 
 `Architect` · `Debugger` · `Security Reviewer` · `Product Manager`
 
-It detects the stack, inspects repository context, debates engineering risk, and returns a prioritized fix plan.
-
-**Nerd factor:** multi-agent review without pretending the AI is allowed to silently rewrite everything.
+The goal is not autonomous code theatre. It is structured repository context, explicit disagreement, risk detection, and a prioritized engineering plan.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🗺️ [Roadmap Tracer](https://github.com/Gurtejhundal/Roadmap-Tracer)
+### `ROADMAP TRACER // EXECUTION ENGINE`
 
-Turns giant learning roadmaps into trackable systems instead of dead PDFs.
+**[Roadmap Tracer →](https://github.com/Gurtejhundal/Roadmap-Tracer)**
+
+Turns large learning roadmaps into trackable execution systems.
 
 `React` · `Vite` · `FastAPI` · `SQLAlchemy` · `Pydantic`
 
-Imports roadmap text and files, parses common ChatGPT structures, tracks progress, supports editing/search/navigation, and exports back to PDF/Word.
-
-**Core obsession:** convert information into execution.
+Imports roadmap text/files, extracts structure, tracks progress, supports editing/search/navigation, and exports usable documents again.
 
 </td>
 <td width="50%" valign="top">
 
-### ⚔️ [DSA — 400 Days](https://github.com/Gurtejhundal/DSA_400_Days_Challenge)
+### `DSA 400 // LONG GAME`
 
-A deliberately long algorithm-training arc instead of a two-week motivation spike.
+**[400 Days of DSA →](https://github.com/Gurtejhundal/DSA_400_Days_Challenge)**
 
-`Python` · `patterns` · `journaling` · `consistency`
+A public algorithm-training arc built around consistency instead of hype.
 
-The target is not “solve random LeetCode.” The target is pattern recognition, fundamentals, solution trade-offs, and a public trail of the work.
+`Python` · `patterns` · `trade-offs` · `journaling`
 
-**Boss fight:** becoming dangerous at problem solving without memorizing answers.
+The target is pattern recognition and problem-solving depth—not memorizing enough LeetCode answers to look busy.
 
 </td>
 </tr>
@@ -110,136 +108,129 @@ The target is not “solve random LeetCode.” The target is pattern recognition
 
 ---
 
-## `03 // ACHIEVEMENTS_UNLOCKED`
-
-```diff
-+ BUILT  a 24-skill specialist AI-agent framework with 8 reusable workflows
-+ BUILT  a four-agent GitHub engineering review council
-+ BUILT  a full-stack roadmap ingestion + progress tracking system
-+ SHIPPED projects across AI tooling, web products, healthcare, media and interactive storytelling
-+ STARTED a 400-day public DSA challenge instead of another “30 days to mastery” fantasy
-+ LEARNED that responsive design is reconstruction, not desktop UI violently compressed to 390px
-! STILL optimizing the human behind the keyboard
-```
+## `03 // SYSTEM ARCHITECTURE`
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Gurtejhundal&theme=radical&no-frame=true&no-bg=true&margin-w=8&margin-h=8&row=1&column=6" width="100%" alt="GitHub trophies" />
-</div>
-
----
-
-## `04 // TECH_ARSENAL`
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nextjs,vite,fastapi,django,postgres,supabase,sqlite,tailwind,html,css,git,github,docker,vercel,figma&perline=10" alt="Technology stack icons" />
+  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nextjs,vite,fastapi,django,postgres,supabase,sqlite,tailwind,html,css,git,github,docker,vercel,figma&perline=10" alt="Technology stack" />
 </div>
 
 <br/>
 
 ```txt
-FRONTEND       React / Next.js / TypeScript / Vite / Tailwind
-BACKEND        Python / FastAPI / Django / REST-ish systems
-DATA           PostgreSQL / SQLite / Supabase / SQLAlchemy
-AI             Agent workflows / LLM orchestration / structured context / review systems
-MOTION         Framer Motion / GSAP thinking / cinematic interaction systems
-PRODUCT        Figma / responsive UX / information architecture / conversion logic
-DELIVERY       Git / GitHub / Vercel / testing / deployment verification
+FRONTEND    React / Next.js / TypeScript / Vite / Tailwind
+BACKEND     Python / FastAPI / Django / REST systems
+DATA        PostgreSQL / SQLite / Supabase / SQLAlchemy
+AI          Agents / orchestration / structured context / review workflows
+INTERFACE   Figma / responsive UX / motion systems / information architecture
+DELIVERY    Git / GitHub / Vercel / testing / deployment verification
 ```
 
+<table>
+<tr>
+<td><b>01</b></td>
+<td><code>inspect &gt; assume</code></td>
+<td>Understand the system before changing it.</td>
+</tr>
+<tr>
+<td><b>02</b></td>
+<td><code>mobile ≠ crop(desktop)</code></td>
+<td>Responsive design is reconstruction, not compression.</td>
+</tr>
+<tr>
+<td><b>03</b></td>
+<td><code>motion must explain</code></td>
+<td>Animation without hierarchy is just expensive noise.</td>
+</tr>
+<tr>
+<td><b>04</b></td>
+<td><code>AI needs boundaries</code></td>
+<td>Agents need scope, evidence, and acceptance criteria.</td>
+</tr>
+<tr>
+<td><b>05</b></td>
+<td><code>verify before done</code></td>
+<td>Shipping includes testing the thing you shipped.</td>
+</tr>
+</table>
+
 ---
 
-## `05 // LIVE_TELEMETRY`
+## `04 // LIVE TELEMETRY`
 
 <div align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=Gurtejhundal&show_icons=true&hide_border=true&bg_color=030207&title_color=00F0FF&text_color=C7C2E8&icon_color=FF2BD6&ring_color=8B5CF6&include_all_commits=true&count_private=false" alt="GitHub stats" />
-  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gurtejhundal&layout=compact&langs_count=8&hide_border=true&bg_color=030207&title_color=FF2BD6&text_color=C7C2E8" alt="Top languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Gurtejhundal&show_icons=true&hide_border=true&bg_color=05010F&title_color=00F6FF&text_color=EDE7FF&icon_color=FF2BD6&ring_color=7F3CFF&include_all_commits=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gurtejhundal&layout=compact&langs_count=8&hide_border=true&bg_color=05010F&title_color=FF2BD6&text_color=EDE7FF" alt="Top languages" />
 </div>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Gurtejhundal&bg_color=030207&color=8B5CF6&line=00F0FF&point=FF2BD6&area=true&area_color=241052&hide_border=true&custom_title=NEURAL%20ACTIVITY%20MAP" alt="GitHub activity graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Gurtejhundal&bg_color=05010F&color=B9A8FF&line=00F6FF&point=FF2BD6&area=true&area_color=281052&hide_border=true&custom_title=AFTER%20MIDNIGHT%20ACTIVITY%20SIGNAL" alt="GitHub activity graph" />
 </div>
 
 <div align="center">
-  <img width="70%" src="https://streak-stats.demolab.com?user=Gurtejhundal&hide_border=true&background=030207&ring=00F0FF&fire=FF2BD6&currStreakLabel=00F0FF&sideLabels=8B5CF6&currStreakNum=EAE7FF&sideNums=EAE7FF&dates=777095" alt="GitHub streak" />
+  <img width="72%" src="https://streak-stats.demolab.com?user=Gurtejhundal&hide_border=true&background=05010F&ring=00F6FF&fire=FF2BD6&currStreakLabel=00F6FF&sideLabels=A994FF&currStreakNum=F8F3FF&sideNums=F8F3FF&dates=766C99" alt="GitHub streak" />
 </div>
 
 ---
 
-## `06 // CONTRIBUTION_MATRIX`
+## `05 // GRID RUNNER`
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Gurtejhundal/Gurtejhundal/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated contribution snake" />
+  <img src="https://raw.githubusercontent.com/Gurtejhundal/Gurtejhundal/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated neon contribution snake" />
 </div>
 
-<sub>Generated automatically by GitHub Actions. The snake consumes the grid every 12 hours because apparently normal contribution charts were insufficiently dramatic.</sub>
+<p align="center">
+  <sub>Every commit leaves a light on somewhere in the city.</sub>
+</p>
 
 ---
 
-## `07 // CURRENT_QUESTS`
+## `06 // QUEST BOARD`
 
 ```yaml
-quest_log:
-  - id: DSA-400
-    objective: "Build real pattern recognition and algorithmic depth"
+active_missions:
+  DSA_400:
+    objective: "Build real algorithmic pattern recognition"
     weapon: "Python"
-    mode: "consistency > hype"
+    rule: "consistency > motivation"
 
-  - id: ROADMAP-TRACER
-    objective: "Turn messy learning documents into executable progress systems"
-    stack: [React, FastAPI, SQLAlchemy]
+  AGENT_SYSTEMS:
+    objective: "Make AI workflows explicit, bounded, and testable"
+    rule: "evidence before confidence"
 
-  - id: AGENT-SYSTEMS
-    objective: "Make AI workflows more explicit, testable and less hand-wavy"
-    rule: "No 'done' without verification"
+  PRODUCT_ENGINEERING:
+    objective: "Build technically correct products with memorable interfaces"
+    enemies:
+      - generic gradient sludge
+      - fake glassmorphism
+      - desktop layouts cropped into mobile
 
-  - id: UI-ENGINEERING
-    objective: "Make technically correct products visually unforgettable"
-    enemies: [generic gradients, fake glassmorphism, cropped-mobile-design]
+  SYSTEMS:
+    objective: "Go deeper than framework-level competence"
+    focus:
+      - architecture
+      - debugging
+      - performance
+      - verification
 ```
 
 ---
 
-## `08 // ENGINEERING_DNA`
-
 <div align="center">
 
-| principle | translation |
-|---|---|
-| `inspect > assume` | understand the system before touching it |
-| `mobile ≠ crop(desktop)` | responsive design deserves its own composition |
-| `motion must explain` | animation without hierarchy is visual noise |
-| `AI needs boundaries` | agents need scope, evidence and acceptance criteria |
-| `shipping is a skill` | deployment and verification are part of engineering |
-| `taste compounds` | correctness gets you functional; taste gets you remembered |
+### `// OPEN CHANNEL`
 
-</div>
+**Building something difficult, strange, useful, or visually obsessive?**
 
----
-
-## `09 // TRANSMISSION`
-
-<div align="center">
-
-### `> connection_request --human`
-
-I’m interested in difficult products, strong interfaces, AI systems that do actual work, and engineering problems with enough complexity to be fun.
-
-<a href="https://gurtejbirsingh.vercel.app/">
-  <img src="https://img.shields.io/badge/OPEN_PORTFOLIO-00F0FF?style=for-the-badge&logo=vercel&logoColor=030207&labelColor=00F0FF&color=00F0FF" alt="Open portfolio" />
-</a>
-<a href="https://github.com/Gurtejhundal?tab=repositories">
-  <img src="https://img.shields.io/badge/EXPLORE_THE_CODE-FF2BD6?style=for-the-badge&logo=github&logoColor=white&labelColor=241052&color=FF2BD6" alt="Explore repositories" />
-</a>
-
-<br/><br/>
+[![PORTFOLIO](https://img.shields.io/badge/OPEN_PORTFOLIO-00F6FF?style=for-the-badge&logo=vercel&logoColor=05010F&labelColor=00F6FF)](https://gurtejbirsingh.vercel.app/)
+[![CODE](https://img.shields.io/badge/EXPLORE_CODE-FF2BD6?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=35105F)](https://github.com/Gurtejhundal?tab=repositories)
 
 ```txt
-┌──────────────────────────────────────────────────────────────┐
-│  EOF? no.                                                   │
-│  next build is already compiling.                           │
-└──────────────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════╗
+║  CHANNEL STILL OPEN.                                        ║
+║  THE CITY IS DARK. THE BUILD IS NOT.                        ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:00F0FF,45:7C3AED,100:FF2BD6&animation=twinkling" width="100%" alt="Animated neon footer" />
+<sub>`NIGHT BEGINS TO SHINE // SIGNAL NEVER SLEEPS`</sub>
 
 </div>
