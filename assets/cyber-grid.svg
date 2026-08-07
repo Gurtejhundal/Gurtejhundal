@@ -1,130 +1,114 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
   <title id="title">Gurtejbir Singh — Night Begins to Shine</title>
-  <desc id="desc">Animated retro title card with chrome synthwave Gurtejbir Singh lettering, Night Begins to Shine subtitle, a five-character cartoon lineup, a striped neon sunset, a rear-view wedge supercar, and a moving perspective grid.</desc>
+  <desc id="desc">Animated retro cyberpunk title card with Robin riding a futuristic purple superbike from the lower right toward a giant striped neon sun, viewed from a rear-right three-quarter angle over a moving synthwave grid.</desc>
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#080018"/><stop offset=".45" stop-color="#2d0059"/><stop offset=".72" stop-color="#8c089d"/><stop offset="1" stop-color="#15001d"/>
+      <stop offset="0" stop-color="#070015"/><stop offset=".45" stop-color="#27004f"/><stop offset=".76" stop-color="#82099b"/><stop offset="1" stop-color="#130019"/>
     </linearGradient>
     <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fff36c"/><stop offset=".34" stop-color="#ffc263"/><stop offset=".7" stop-color="#ff4b93"/><stop offset="1" stop-color="#ff20ce"/>
+      <stop offset="0" stop-color="#fff36f"/><stop offset=".34" stop-color="#ffbd61"/><stop offset=".7" stop-color="#ff4d91"/><stop offset="1" stop-color="#ff20ce"/>
     </linearGradient>
     <linearGradient id="logo" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff"/><stop offset=".14" stop-color="#a9f6ff"/><stop offset=".38" stop-color="#31cbff"/><stop offset=".54" stop-color="#ffe76b"/><stop offset=".72" stop-color="#ff6b9b"/><stop offset="1" stop-color="#a42cd5"/>
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".16" stop-color="#b8f7ff"/><stop offset=".38" stop-color="#35c8ff"/><stop offset=".55" stop-color="#ffe46b"/><stop offset=".75" stop-color="#ff6b9e"/><stop offset="1" stop-color="#9f2bd4"/>
     </linearGradient>
-    <linearGradient id="sub" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#66efff"/><stop offset=".48" stop-color="#ffffff"/><stop offset=".72" stop-color="#ff77db"/><stop offset="1" stop-color="#b843ff"/>
+    <linearGradient id="bike" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff4fe0"/><stop offset=".26" stop-color="#a72cce"/><stop offset=".58" stop-color="#4e187f"/><stop offset="1" stop-color="#10021c"/>
     </linearGradient>
-    <linearGradient id="carBody" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f34cd8"/><stop offset=".28" stop-color="#a12cc4"/><stop offset=".62" stop-color="#51187c"/><stop offset="1" stop-color="#10031c"/>
+    <linearGradient id="bikeEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f4ff"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#ff44dc"/>
     </linearGradient>
-    <linearGradient id="carTop" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ff63e8"/><stop offset=".48" stop-color="#a329c6"/><stop offset="1" stop-color="#35104b"/>
-    </linearGradient>
-    <radialGradient id="tailGlow"><stop offset="0" stop-color="#fff5c6"/><stop offset=".28" stop-color="#ff385f" stop-opacity=".95"/><stop offset="1" stop-color="#ff174f" stop-opacity="0"/></radialGradient>
+    <radialGradient id="tailGlow"><stop offset="0" stop-color="#fff7cf"/><stop offset=".25" stop-color="#ff3d69" stop-opacity=".98"/><stop offset="1" stop-color="#ff174f" stop-opacity="0"/></radialGradient>
+    <radialGradient id="jetGlow"><stop offset="0" stop-color="#ffffff"/><stop offset=".3" stop-color="#00efff" stop-opacity=".95"/><stop offset="1" stop-color="#8b2cff" stop-opacity="0"/></radialGradient>
     <filter id="glow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="22" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="logoShadow" x="-30%" y="-30%" width="180%" height="190%"><feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/><feOffset dx="13" dy="16" result="off"/><feFlood flood-color="#26003e" flood-opacity=".95" result="f"/><feComposite in="f" in2="off" operator="in" result="shadow"/><feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="logoShadow" x="-30%" y="-30%" width="180%" height="190%"><feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/><feOffset dx="10" dy="13" result="off"/><feFlood flood-color="#25003d" flood-opacity=".96" result="f"/><feComposite in="f" in2="off" operator="in" result="shadow"/><feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <clipPath id="screen"><rect x="16" y="16" width="1168" height="648" rx="27"/></clipPath>
-    <clipPath id="sunClip"><circle cx="600" cy="340" r="165"/></clipPath>
+    <clipPath id="sunClip"><circle cx="590" cy="337" r="171"/></clipPath>
     <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity=".16"/></pattern>
   </defs>
 
   <rect width="1200" height="680" rx="30" fill="#050008"/>
   <g clip-path="url(#screen)">
     <rect x="16" y="16" width="1168" height="648" fill="url(#sky)"/>
-    <g fill="#f7eaff" opacity=".7"><circle cx="95" cy="88" r="1.3"/><circle cx="205" cy="238" r="1"/><circle cx="315" cy="77" r="1.4"/><circle cx="860" cy="95" r="1.1"/><circle cx="1080" cy="214" r="1.4"/><circle cx="990" cy="69" r="1"/></g>
+    <g fill="#f5e8ff" opacity=".72"><circle cx="92" cy="100" r="1.2"/><circle cx="194" cy="235" r="1"/><circle cx="313" cy="74" r="1.3"/><circle cx="876" cy="103" r="1.2"/><circle cx="1080" cy="218" r="1.4"/><circle cx="1010" cy="68" r="1"/></g>
 
-    <circle cx="600" cy="340" r="207" fill="#ff2bd6" opacity=".17" filter="url(#softGlow)"><animate attributeName="opacity" values=".1;.27;.1" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="600" cy="340" r="165" fill="url(#sun)" filter="url(#glow)"/>
-    <g clip-path="url(#sunClip)" fill="#86116e"><rect x="420" y="337" width="360" height="7"/><rect x="420" y="359" width="360" height="9"/><rect x="420" y="385" width="360" height="12"/><rect x="420" y="416" width="360" height="15"/><rect x="420" y="453" width="360" height="19"/></g>
+    <g transform="skewX(-8)" filter="url(#logoShadow)">
+      <text x="655" y="110" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="82" font-style="italic" font-weight="900" letter-spacing="3" fill="#2a0646" stroke="#f9f5ff" stroke-width="8" paint-order="stroke">GURTEJBIR SINGH</text>
+      <text x="655" y="110" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="82" font-style="italic" font-weight="900" letter-spacing="3" fill="url(#logo)" stroke="#7822c8" stroke-width="3" paint-order="stroke">GURTEJBIR SINGH</text>
+    </g>
+    <text x="600" y="153" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="30" font-style="italic" font-weight="900" letter-spacing="8" fill="#fff" stroke="#8a23c9" stroke-width="2" paint-order="stroke" filter="url(#glow)">NIGHT BEGINS TO SHINE</text>
 
-    <!-- character lineup: Raven-inspired -->
-    <g transform="translate(120 330)">
-      <path d="M15 170 Q10 75 55 38 Q94 70 102 170 Z" fill="#34104e" stroke="#ad55ff" stroke-width="4"/>
-      <path d="M22 92 Q50 22 83 90 Q72 119 54 122 Q36 119 22 92Z" fill="#5b2787"/>
-      <ellipse cx="54" cy="84" rx="25" ry="31" fill="#d9c7e8"/>
-      <path d="M32 72 Q54 47 76 72 L68 58 56 38 42 57Z" fill="#281036"/>
-      <path d="M43 84 l8 4 -9 3" fill="none" stroke="#111" stroke-width="3"/><path d="M65 84 l-8 4 9 3" fill="none" stroke="#111" stroke-width="3"/>
-      <circle cx="54" cy="56" r="5" fill="#ff2bd6" stroke="#ffd85c" stroke-width="2"/>
-      <path d="M18 150 L0 201 42 175 54 212 68 175 108 202 91 151" fill="#4d1b70" stroke="#9a48e1" stroke-width="3"/>
+    <circle cx="590" cy="337" r="210" fill="#ff2bd6" opacity=".16" filter="url(#softGlow)"><animate attributeName="opacity" values=".1;.26;.1" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="590" cy="337" r="171" fill="url(#sun)" filter="url(#glow)"/>
+    <g clip-path="url(#sunClip)" fill="#86116e"><rect x="410" y="332" width="365" height="7"/><rect x="410" y="354" width="365" height="9"/><rect x="410" y="380" width="365" height="12"/><rect x="410" y="411" width="365" height="15"/><rect x="410" y="448" width="365" height="19"/></g>
+
+    <path d="M0 470 H1200 V680 H0Z" fill="#080011"/>
+    <g stroke="#ff27d8" opacity=".72" fill="none"><path d="M590 470 L0 680"/><path d="M590 470 L145 680"/><path d="M590 470 L290 680"/><path d="M590 470 L435 680"/><path d="M590 470 L545 680"/><path d="M590 470 L655 680"/><path d="M590 470 L780 680"/><path d="M590 470 L930 680"/><path d="M590 470 L1070 680"/><path d="M590 470 L1200 680"/></g>
+    <g stroke="#00eaff" opacity=".34" fill="none"><path d="M0 486 H1200"><animateTransform attributeName="transform" type="translate" values="0 0;0 62" dur=".9s" repeatCount="indefinite"/></path><path d="M0 516 H1200"><animateTransform attributeName="transform" type="translate" values="0 0;0 82" dur=".9s" repeatCount="indefinite"/></path><path d="M0 556 H1200"><animateTransform attributeName="transform" type="translate" values="0 0;0 102" dur=".9s" repeatCount="indefinite"/></path><path d="M0 606 H1200"><animateTransform attributeName="transform" type="translate" values="0 0;0 128" dur=".9s" repeatCount="indefinite"/></path></g>
+
+    <!-- diagonal rear-right superbike chase -->
+    <g id="bikeShot">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-5 -2;2 -5;0 0" dur="2.2s" repeatCount="indefinite"/>
+
+      <!-- speed trail behind the motorcycle -->
+      <path d="M1080 646 L936 563" stroke="#ff2bd6" stroke-width="8" opacity=".22" filter="url(#glow)"/>
+      <path d="M1120 634 L952 550" stroke="#00efff" stroke-width="4" opacity=".25" filter="url(#glow)"/>
+      <path d="M1038 670 L914 585" stroke="#8d36ff" stroke-width="13" opacity=".14"/>
+
+      <!-- rear wheel, intentionally oversized by perspective -->
+      <g transform="rotate(-17 915 570)">
+        <ellipse cx="915" cy="570" rx="65" ry="82" fill="#050108" stroke="#35124f" stroke-width="7"/>
+        <ellipse cx="915" cy="570" rx="43" ry="58" fill="#10101a" stroke="#d8d8ee" stroke-width="7"/>
+        <ellipse cx="915" cy="570" rx="18" ry="31" fill="#07070c" stroke="#7f7f9d" stroke-width="4"/>
+        <path d="M915 515 V625M871 548 L959 592M871 592 L959 548" stroke="#8a81a4" stroke-width="3" opacity=".7"/>
+        <animateTransform attributeName="transform" type="rotate" from="0 915 570" to="360 915 570" dur=".72s" repeatCount="indefinite" additive="sum"/>
+      </g>
+
+      <!-- front wheel, smaller because it is closer to the sun -->
+      <g transform="rotate(-17 737 466)">
+        <ellipse cx="737" cy="466" rx="33" ry="44" fill="#050108" stroke="#311044" stroke-width="5"/>
+        <ellipse cx="737" cy="466" rx="21" ry="30" fill="#111019" stroke="#d6d7ea" stroke-width="5"/>
+        <path d="M737 438 V494M719 452 L755 480M719 480 L755 452" stroke="#85829a" stroke-width="2.5"/>
+        <animateTransform attributeName="transform" type="rotate" from="0 737 466" to="360 737 466" dur=".72s" repeatCount="indefinite" additive="sum"/>
+      </g>
+
+      <!-- angular superbike body inspired by the supplied purple futuristic bike -->
+      <path d="M725 446 L760 414 823 424 858 459 935 501 966 555 931 574 875 535 820 520 781 482 739 478Z" fill="url(#bike)" stroke="url(#bikeEdge)" stroke-width="3"/>
+      <path d="M771 426 L806 392 842 397 865 437 823 444Z" fill="#25103b" stroke="#b84eff" stroke-width="3"/>
+      <path d="M813 428 L864 447 909 492 863 487 827 467Z" fill="#12051f" stroke="#6820a0" stroke-width="3"/>
+      <path d="M848 465 L915 499 947 542 914 539 874 510Z" fill="#47116e" stroke="#ff4edc" stroke-width="3"/>
+      <path d="M886 505 L956 536 972 563 948 574 904 544Z" fill="#13021d" stroke="#64209a" stroke-width="3"/>
+      <path d="M754 433 L795 404 813 410 782 445Z" fill="#00dff4" opacity=".85"/>
+      <path d="M794 458 L835 446 870 466 826 475Z" fill="#00eaff" opacity=".48"/>
+      <path d="M873 496 L924 516" stroke="#ff7ce6" stroke-width="5" opacity=".85"/>
+
+      <!-- tail and exhaust, closest to viewer -->
+      <path d="M922 515 L965 535 955 552 916 537Z" fill="#ff204f" filter="url(#glow)"><animate attributeName="opacity" values=".72;1;.72" dur=".72s" repeatCount="indefinite"/></path>
+      <ellipse cx="946" cy="543" rx="62" ry="42" fill="url(#tailGlow)" opacity=".32"><animate attributeName="opacity" values=".2;.42;.2" dur=".72s" repeatCount="indefinite"/></ellipse>
+      <path d="M937 562 L982 582 975 597 932 577Z" fill="#06020a" stroke="#a9a8bc" stroke-width="4"/>
+      <ellipse cx="982" cy="592" rx="70" ry="38" fill="url(#jetGlow)" opacity=".35"><animate attributeName="rx" values="54;78;54" dur=".48s" repeatCount="indefinite"/></ellipse>
+      <path d="M975 583 L1050 627 991 604Z" fill="#7bf9ff" opacity=".72"><animate attributeName="opacity" values=".25;.9;.25" dur=".48s" repeatCount="indefinite"/></path>
+
+      <!-- Robin, leaning into the diagonal line of travel -->
+      <g transform="rotate(-16 818 400)">
+        <path d="M774 390 Q803 353 841 362 L863 407 842 445 795 431Z" fill="#d72b3c" stroke="#2d0b18" stroke-width="4"/>
+        <path d="M800 425 L831 423 852 481 824 489 801 453Z" fill="#3fa64b" stroke="#14271a" stroke-width="4"/>
+        <path d="M815 356 Q834 329 861 341 L873 365 854 381 826 377Z" fill="#eab07b" stroke="#43152b" stroke-width="3"/>
+        <path d="M814 349 L797 321 825 335 826 307 849 329 871 303 869 338 891 326 874 357Z" fill="#0d0911"/>
+        <path d="M840 350 Q852 341 866 349 Q853 360 840 350" fill="#f7f7ff" stroke="#111" stroke-width="5"/>
+        <path d="M792 383 L756 425" stroke="#3fa64b" stroke-width="13" stroke-linecap="round"/>
+        <path d="M841 386 L873 425" stroke="#3fa64b" stroke-width="13" stroke-linecap="round"/>
+        <circle cx="754" cy="429" r="10" fill="#0e1118"/><circle cx="878" cy="429" r="10" fill="#0e1118"/>
+        <path d="M789 398 L768 365 772 429 795 446Z" fill="#f1d237" opacity=".85"/>
+      </g>
     </g>
 
-    <!-- Starfire-inspired -->
-    <g transform="translate(255 350)">
-      <path d="M24 15 Q60 -18 94 17 L87 112 43 117 Z" fill="#d82481"/>
-      <ellipse cx="60" cy="74" rx="31" ry="38" fill="#e77747" stroke="#7c2345" stroke-width="3"/>
-      <ellipse cx="49" cy="71" rx="6" ry="9" fill="#69ff78"/><ellipse cx="72" cy="71" rx="6" ry="9" fill="#69ff78"/>
-      <path d="M50 90 Q60 98 71 90" fill="none" stroke="#4d1737" stroke-width="3"/>
-      <path d="M30 108 Q61 96 92 108 L106 190 17 190Z" fill="#782482" stroke="#ff61c5" stroke-width="4"/>
-      <circle cx="61" cy="119" r="7" fill="#6cff7d"/>
-      <path d="M21 139 L-3 177 18 187 39 155M100 139 L124 177 104 187 82 155" fill="#e77747" stroke="#7c2345" stroke-width="3"/>
+    <g stroke-linecap="round" opacity=".62">
+      <path d="M1068 466 l100 86" stroke="#ff2bd6" stroke-width="4"><animateTransform attributeName="transform" type="translate" values="0 -80;-30 110" dur=".8s" repeatCount="indefinite"/></path>
+      <path d="M1015 420 l115 70" stroke="#00eaff" stroke-width="3"><animateTransform attributeName="transform" type="translate" values="0 -110;-40 120" dur=".95s" repeatCount="indefinite"/></path>
     </g>
 
-    <!-- Robin-inspired -->
-    <g transform="translate(385 335)">
-      <path d="M18 56 L-4 12 29 32 24 -12 54 22 73 -17 81 28 118 8 94 59Z" fill="#110c18"/>
-      <ellipse cx="58" cy="74" rx="38" ry="40" fill="#f0b37e" stroke="#45182c" stroke-width="3"/>
-      <path d="M24 64 Q42 50 56 63 Q40 80 24 64M59 63 Q76 49 94 63 Q80 80 59 63" fill="#f8f8ff" stroke="#111" stroke-width="6"/>
-      <path d="M47 93 Q61 101 73 92" fill="none" stroke="#32131f" stroke-width="3"/>
-      <path d="M25 111 Q60 98 95 111 L103 188 17 188Z" fill="#d92e37" stroke="#35101d" stroke-width="4"/>
-      <path d="M60 111 V188" stroke="#f3d33f" stroke-width="4"/><circle cx="60" cy="124" r="9" fill="#f4d73c" stroke="#111" stroke-width="3"/>
-      <path d="M16 145 L-12 184 15 195 38 157M103 145 L129 184 103 195 81 157" fill="#42a84a" stroke="#142619" stroke-width="3"/>
-    </g>
-
-    <!-- Cyborg-inspired, centered and tallest -->
-    <g transform="translate(505 245)">
-      <path d="M86 10 Q128 -20 166 11 L175 82 157 108 94 108 73 82Z" fill="#8d3e46" stroke="#1a0d15" stroke-width="4"/>
-      <path d="M84 15 L91 -5 116 7 126 -8 143 8 164 0 166 26 174 43 149 34 132 43 111 32Z" fill="#0b0911"/>
-      <path d="M147 16 L179 27 171 60 146 54Z" fill="#88e6ff" stroke="#316aa4" stroke-width="4"/>
-      <rect x="156" y="31" width="13" height="8" fill="#ff38d6"/>
-      <path d="M97 54 q15 -11 30 0" fill="none" stroke="#111" stroke-width="5"/><path d="M108 82 H150" stroke="#111" stroke-width="5"/>
-      <path d="M65 106 L16 132 0 212 52 248 82 212 175 212 205 248 257 212 241 132 190 106 173 86 84 86Z" fill="#f3eef7" stroke="#1f1324" stroke-width="5"/>
-      <path d="M89 112 H169 L183 177 129 196 75 177Z" fill="#efe7ef" stroke="#ff63d5" stroke-width="4"/>
-      <rect x="101" y="127" width="58" height="34" rx="4" fill="#3b3a46" stroke="#60ff83" stroke-width="4"/>
-      <circle cx="130" cy="144" r="7" fill="#8f2639"/>
-      <path d="M17 133 L-18 154 8 235 60 212M240 133 L275 154 250 235 198 212" fill="#e9e3ef" stroke="#1f1324" stroke-width="5"/>
-      <path d="M82 212 L66 305 118 318 129 236 141 318 194 305 176 212" fill="#ece6ef" stroke="#1f1324" stroke-width="5"/>
-    </g>
-
-    <!-- Beast Boy-inspired -->
-    <g transform="translate(930 342)">
-      <path d="M18 51 L0 12 34 30 50 -5 63 27 96 7 86 47Z" fill="#123527"/>
-      <path d="M24 56 L5 43 12 75 28 76M83 56 L102 43 94 76 79 76" fill="#60b665" stroke="#183623" stroke-width="3"/>
-      <ellipse cx="55" cy="78" rx="36" ry="42" fill="#63bd68" stroke="#173823" stroke-width="3"/>
-      <ellipse cx="43" cy="72" rx="6" ry="9" fill="#fff"/><ellipse cx="68" cy="72" rx="6" ry="9" fill="#fff"/><circle cx="44" cy="74" r="3"/><circle cx="67" cy="74" r="3"/>
-      <path d="M43 94 Q57 108 72 92" fill="#fff" stroke="#173823" stroke-width="3"/>
-      <path d="M25 118 Q58 101 91 118 L108 190 6 190Z" fill="#42185f" stroke="#cb4ee9" stroke-width="4"/>
-      <path d="M55 115 V190" stroke="#8b2bb4" stroke-width="4"/><path d="M15 143 L-12 177 9 192 37 158M101 143 L128 177 108 192 80 158" fill="#63bd68" stroke="#173823" stroke-width="3"/>
-    </g>
-
-    <!-- moving outrun grid -->
-    <path d="M0 472 H1200 V680 H0Z" fill="#080011"/>
-    <g stroke="#ff27d8" opacity=".72" fill="none"><path d="M600 472 L0 680"/><path d="M600 472 L145 680"/><path d="M600 472 L290 680"/><path d="M600 472 L435 680"/><path d="M600 472 L545 680"/><path d="M600 472 L655 680"/><path d="M600 472 L765 680"/><path d="M600 472 L910 680"/><path d="M600 472 L1055 680"/><path d="M600 472 L1200 680"/></g>
-    <g stroke="#00eaff" opacity=".34" fill="none"><path d="M0 487 H1200"><animateTransform attributeName="transform" type="translate" values="0 0;0 60" dur=".9s" repeatCount="indefinite"/></path><path d="M0 518 H1200"><animateTransform attributeName="transform" type="translate" values="0 0;0 78" dur=".9s" repeatCount="indefinite"/></path><path d="M0 558 H1200"><animateTransform attributeName="transform" type="translate" values="0 0;0 98" dur=".9s" repeatCount="indefinite"/></path><path d="M0 609 H1200"><animateTransform attributeName="transform" type="translate" values="0 0;0 124" dur=".9s" repeatCount="indefinite"/></path></g>
-
-    <!-- rear-view Countach-inspired car -->
-    <g id="car"><animateTransform attributeName="transform" type="translate" values="0 0;-5 -2;4 -4;0 0" dur="2.7s" repeatCount="indefinite"/>
-      <ellipse cx="600" cy="621" rx="252" ry="36" fill="#000" opacity=".68"/><ellipse cx="600" cy="613" rx="212" ry="24" fill="#ff2bd6" opacity=".18" filter="url(#softGlow)"/>
-      <ellipse cx="384" cy="582" rx="48" ry="76" fill="#050108"/><ellipse cx="816" cy="582" rx="48" ry="76" fill="#050108"/><ellipse cx="384" cy="582" rx="27" ry="59" fill="#17111f" stroke="#dedbe9" stroke-width="5"/><ellipse cx="816" cy="582" rx="27" ry="59" fill="#17111f" stroke="#dedbe9" stroke-width="5"/>
-      <path d="M330 476 H870" stroke="#050108" stroke-width="17"/><path d="M353 468 H847" stroke="#8f25b6" stroke-width="10"/><path d="M382 468 L401 424 H423 L413 468M818 468 L799 424 H777 L787 468" fill="#15031d" stroke="#8f25b6" stroke-width="3"/>
-      <path d="M342 560 Q360 507 431 485 L503 458 H697 L769 485 Q840 507 858 560 L827 610 Q767 631 692 638 H508 Q433 631 373 610Z" fill="url(#carBody)" stroke="#ff70e7" stroke-width="3"/>
-      <path d="M450 488 L512 438 H688 L750 488 L702 514 H498Z" fill="url(#carTop)" stroke="#d35cff" stroke-width="2.2"/><path d="M499 466 L542 429 H658 L701 466 L665 490 H535Z" fill="#09010f" stroke="#bf4cff" stroke-width="2"/>
-      <path d="M370 553 H830 L807 607 Q758 621 692 627 H508 Q442 621 393 607Z" fill="#0b0211" stroke="#651976" stroke-width="2"/>
-      <g filter="url(#glow)"><rect x="408" y="565" width="72" height="22" rx="2" fill="#ff174f"/><rect x="489" y="565" width="54" height="22" rx="2" fill="#ff174f"/><rect x="657" y="565" width="54" height="22" rx="2" fill="#ff174f"/><rect x="720" y="565" width="72" height="22" rx="2" fill="#ff174f"/><animate attributeName="opacity" values=".74;1;.74" dur=".82s" repeatCount="indefinite"/></g>
-      <ellipse cx="454" cy="576" rx="72" ry="35" fill="url(#tailGlow)" opacity=".24"/><ellipse cx="746" cy="576" rx="72" ry="35" fill="url(#tailGlow)" opacity=".24"/>
-      <path d="M430 603 H514 L492 628 H405ZM686 603 H770 L795 628 H708Z" fill="#030106"/><rect x="541" y="610" width="40" height="12" rx="5" fill="#06040a" stroke="#bcb9c8" stroke-width="3"/><rect x="619" y="610" width="40" height="12" rx="5" fill="#06040a" stroke="#bcb9c8" stroke-width="3"/><path d="M553 622 l-15 22 24 -13Z" fill="#ff9e51"><animate attributeName="opacity" values="0;.95;0" dur=".5s" repeatCount="indefinite"/></path><path d="M647 622 l15 22 -24 -13Z" fill="#ff9e51"><animate attributeName="opacity" values=".95;0;.95" dur=".5s" repeatCount="indefinite"/></path>
-    </g>
-
-    <!-- logo-style CTA -->
-    <g text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-style="italic" font-weight="900" transform="rotate(-3 600 124) skewX(-8)" filter="url(#logoShadow)">
-      <text x="612" y="151" font-size="92" letter-spacing="2" fill="#2d075a" stroke="#160020" stroke-width="12" paint-order="stroke fill">GURTEJBIR SINGH</text>
-      <text x="606" y="143" font-size="92" letter-spacing="2" fill="#8425b8" stroke="#ff55da" stroke-width="6" paint-order="stroke fill">GURTEJBIR SINGH</text>
-      <text x="600" y="134" font-size="92" letter-spacing="2" fill="url(#logo)" stroke="#fbf3ff" stroke-width="2.5" paint-order="stroke fill">GURTEJBIR SINGH</text>
-      <path d="M250 160 Q600 204 958 144" stroke="#ffdf62" stroke-width="4" fill="none"/>
-    </g>
-    <text x="603" y="205" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-style="italic" font-size="30" font-weight="900" letter-spacing="6" fill="#5c0b77">NIGHT BEGINS TO SHINE</text>
-    <text x="600" y="200" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-style="italic" font-size="30" font-weight="900" letter-spacing="6" fill="url(#sub)" filter="url(#glow)">NIGHT BEGINS TO SHINE</text>
-
-    <rect x="16" y="16" width="1168" height="648" fill="url(#scan)" opacity=".38"/><rect x="16" y="34" width="1168" height="3" fill="#fff" opacity=".42" filter="url(#glow)"><animate attributeName="y" values="34;658;34" dur="6.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.48;.08;0" dur="6.2s" repeatCount="indefinite"/></rect>
+    <rect x="16" y="16" width="1168" height="648" fill="url(#scan)" opacity=".38"/>
+    <rect x="16" y="34" width="1168" height="3" fill="#fff" opacity=".42" filter="url(#glow)"><animate attributeName="y" values="34;658;34" dur="6.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.48;.08;0" dur="6.2s" repeatCount="indefinite"/></rect>
   </g>
 </svg>
