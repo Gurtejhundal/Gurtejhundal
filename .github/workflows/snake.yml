@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate synthwave contribution snake
 
 on:
   schedule:
@@ -14,13 +14,13 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Generate neon snake
+      - name: Generate retro-neon snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%2300f0ff&color_dots=%23030207,%2315102e,%237a21ff,%23ff2bd6,%2300f0ff
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23ff2bd6
+            dist/github-contribution-grid-snake.svg?color_snake=%2300f6ff&color_dots=%2305010f,%2312052b,%235c1fb4,%23ff2bd6,%2300f6ff
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23ff2bd6&color_dots=%2305010f,%2312052b,%235c1fb4,%23ff2bd6,%2300f6ff
 
       - name: Publish animation to output branch
         uses: crazy-max/ghaction-github-pages@v4

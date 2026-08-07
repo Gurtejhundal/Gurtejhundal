@@ -1,98 +1,118 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-  <title id="title">Gurtejbir Singh cyberpunk profile banner</title>
-  <desc id="desc">Animated neon HUD banner with grid, particles, glitch text, status panels, and scan line.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Gurtejbir Singh retro cyberpunk profile banner</title>
+  <desc id="desc">Animated synthwave night scene with neon sun, city skyline, perspective grid, VHS scanline and glitch typography.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#020108"/>
-      <stop offset="0.48" stop-color="#09031b"/>
-      <stop offset="1" stop-color="#02030c"/>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#02010b"/>
+      <stop offset=".54" stop-color="#090425"/>
+      <stop offset="1" stop-color="#14022d"/>
     </linearGradient>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00f0ff">
-        <animate attributeName="stop-color" values="#00f0ff;#8b5cf6;#ff2bd6;#00f0ff" dur="6s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="0.5" stop-color="#8b5cf6">
-        <animate attributeName="stop-color" values="#8b5cf6;#ff2bd6;#00f0ff;#8b5cf6" dur="6s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="1" stop-color="#ff2bd6">
-        <animate attributeName="stop-color" values="#ff2bd6;#00f0ff;#8b5cf6;#ff2bd6" dur="6s" repeatCount="indefinite"/>
-      </stop>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset=".46" stop-color="#ff5c8a"/>
+      <stop offset="1" stop-color="#ff2bd6"/>
     </linearGradient>
-    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M44 0H0V44" fill="none" stroke="#00d9ff" stroke-opacity=".095" stroke-width="1"/>
-      <circle cx="0" cy="0" r="1.2" fill="#ff2bd6" fill-opacity=".45"/>
-    </pattern>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10072a"/>
+      <stop offset="1" stop-color="#02010b"/>
+    </linearGradient>
+    <linearGradient id="nameGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f6ff"/>
+      <stop offset=".52" stop-color="#e8f7ff"/>
+      <stop offset="1" stop-color="#ff2bd6"/>
+    </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="9" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="deepGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="screen"><rect x="44" y="35" width="1112" height="360" rx="20"/></clipPath>
+    <clipPath id="screen"><rect x="24" y="24" width="1152" height="472" rx="24"/></clipPath>
+    <clipPath id="sunClip"><circle cx="600" cy="158" r="92"/></clipPath>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" opacity=".22"/>
+    </pattern>
   </defs>
 
-  <rect width="1200" height="430" rx="26" fill="url(#bg)"/>
-  <rect x="20" y="20" width="1160" height="390" rx="24" fill="none" stroke="#7c3aed" stroke-opacity=".35"/>
-  <rect x="34" y="30" width="1132" height="370" rx="20" fill="url(#grid)" opacity=".9">
-    <animate attributeName="opacity" values=".55;.95;.65;.9" dur="4.8s" repeatCount="indefinite"/>
-  </rect>
-
+  <rect width="1200" height="520" rx="28" fill="#010008"/>
+  <rect x="14" y="14" width="1172" height="492" rx="26" fill="none" stroke="#25104d" stroke-width="2"/>
   <g clip-path="url(#screen)">
-    <path d="M-60 340 C220 265 410 425 650 318 S1010 245 1280 328" fill="none" stroke="#8b5cf6" stroke-opacity=".26" stroke-width="2">
-      <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M-60 340 C220 265 410 425 650 318 S1010 245 1280 328;M-60 322 C230 405 420 250 655 350 S1010 405 1280 300;M-60 340 C220 265 410 425 650 318 S1010 245 1280 328"/>
-    </path>
-    <path d="M-60 360 C240 300 390 385 655 342 S1020 300 1280 355" fill="none" stroke="#00f0ff" stroke-opacity=".22" stroke-width="1.5">
-      <animate attributeName="d" dur="6s" repeatCount="indefinite" values="M-60 360 C240 300 390 385 655 342 S1020 300 1280 355;M-60 350 C180 415 430 285 650 365 S1000 285 1280 340;M-60 360 C240 300 390 385 655 342 S1020 300 1280 355"/>
-    </path>
+    <rect x="24" y="24" width="1152" height="472" fill="url(#sky)"/>
 
-    <g fill="#00f0ff" filter="url(#glow)">
-      <circle cx="110" cy="330" r="2.5"><animate attributeName="cy" values="420;40;420" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="11s" repeatCount="indefinite"/></circle>
-      <circle cx="245" cy="90" r="2"><animate attributeName="cy" values="420;20;420" dur="8s" begin="-2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="8s" begin="-2s" repeatCount="indefinite"/></circle>
-      <circle cx="820" cy="250" r="2"><animate attributeName="cy" values="420;35;420" dur="10s" begin="-4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="10s" begin="-4s" repeatCount="indefinite"/></circle>
-      <circle cx="1040" cy="150" r="2.5"><animate attributeName="cy" values="420;55;420" dur="9s" begin="-1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.8;0" dur="9s" begin="-1s" repeatCount="indefinite"/></circle>
-    </g>
-    <g fill="#ff2bd6" filter="url(#glow)">
-      <circle cx="165" cy="190" r="2"><animate attributeName="cy" values="30;405;30" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.8;0" dur="12s" repeatCount="indefinite"/></circle>
-      <circle cx="930" cy="95" r="2.5"><animate attributeName="cy" values="30;405;30" dur="7s" begin="-3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" begin="-3s" repeatCount="indefinite"/></circle>
+    <g fill="#d8ecff">
+      <circle cx="92" cy="84" r="1.4"><animate attributeName="opacity" values=".2;1;.2" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="174" cy="118" r="1"><animate attributeName="opacity" values="1;.25;1" dur="2.7s" repeatCount="indefinite"/></circle>
+      <circle cx="278" cy="72" r="1.2"><animate attributeName="opacity" values=".15;.9;.15" dur="4.1s" repeatCount="indefinite"/></circle>
+      <circle cx="402" cy="112" r=".9"><animate attributeName="opacity" values=".9;.2;.9" dur="3.1s" repeatCount="indefinite"/></circle>
+      <circle cx="802" cy="78" r="1.3"><animate attributeName="opacity" values=".2;1;.2" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle cx="944" cy="126" r="1"><animate attributeName="opacity" values=".8;.1;.8" dur="3.7s" repeatCount="indefinite"/></circle>
+      <circle cx="1092" cy="94" r="1.5"><animate attributeName="opacity" values=".25;1;.25" dur="4.4s" repeatCount="indefinite"/></circle>
     </g>
 
-    <rect x="35" y="48" width="1130" height="3" fill="#00f0ff" opacity=".55" filter="url(#glow)">
-      <animate attributeName="y" values="35;395;35" dur="5.8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;.7;.12;0" dur="5.8s" repeatCount="indefinite"/>
+    <circle cx="600" cy="158" r="106" fill="#ff2bd6" opacity=".16" filter="url(#deepGlow)">
+      <animate attributeName="opacity" values=".12;.26;.12" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="158" r="92" fill="url(#sun)" filter="url(#glow)"/>
+    <g clip-path="url(#sunClip)" fill="#120522">
+      <rect x="500" y="176" width="200" height="6"/>
+      <rect x="500" y="191" width="200" height="9"/>
+      <rect x="500" y="210" width="200" height="12"/>
+      <rect x="500" y="232" width="200" height="16"/>
+    </g>
+
+    <path d="M0 287 L90 287 90 252 112 252 112 277 140 277 140 236 165 236 165 287 210 287 210 260 230 260 230 245 252 245 252 287 320 287 320 226 348 226 348 287 380 287 380 250 405 250 405 287 470 287 470 242 493 242 493 215 516 215 516 287 690 287 690 238 718 238 718 287 760 287 760 218 786 218 786 287 850 287 850 245 874 245 874 270 898 270 898 287 948 287 948 228 974 228 974 287 1020 287 1020 252 1044 252 1044 287 1100 287 1100 234 1126 234 1126 287 1200 287 1200 320 0 320Z" fill="#03010c" stroke="#532a87" stroke-width="1"/>
+    <g fill="#00f6ff" opacity=".55">
+      <rect x="101" y="261" width="4" height="8"/><rect x="148" y="246" width="4" height="8"/>
+      <rect x="330" y="236" width="5" height="10"/><rect x="482" y="252" width="4" height="9"/>
+      <rect x="704" y="248" width="4" height="9"/><rect x="770" y="232" width="5" height="10"/>
+      <rect x="962" y="240" width="4" height="9"/><rect x="1111" y="246" width="5" height="10"/>
+    </g>
+
+    <rect x="0" y="286" width="1200" height="234" fill="url(#road)"/>
+    <line x1="600" y1="287" x2="-120" y2="520" stroke="#ff2bd6" stroke-width="2" opacity=".72"/>
+    <line x1="600" y1="287" x2="180" y2="520" stroke="#7f3cff" stroke-width="1.6" opacity=".72"/>
+    <line x1="600" y1="287" x2="390" y2="520" stroke="#00f6ff" stroke-width="1.4" opacity=".62"/>
+    <line x1="600" y1="287" x2="810" y2="520" stroke="#00f6ff" stroke-width="1.4" opacity=".62"/>
+    <line x1="600" y1="287" x2="1020" y2="520" stroke="#7f3cff" stroke-width="1.6" opacity=".72"/>
+    <line x1="600" y1="287" x2="1320" y2="520" stroke="#ff2bd6" stroke-width="2" opacity=".72"/>
+
+    <g fill="none" stroke="#7d49c9" opacity=".72">
+      <path d="M0 318 H1200"/><path d="M0 342 H1200"/><path d="M0 371 H1200"/>
+      <path d="M0 406 H1200"/><path d="M0 451 H1200"/>
+    </g>
+    <path d="M0 287 H1200" stroke="#00f6ff" stroke-width="3" filter="url(#glow)">
+      <animate attributeName="opacity" values=".55;1;.55" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+
+    <g font-family="Arial Black, Impact, sans-serif" text-anchor="middle">
+      <text x="596" y="118" font-size="74" letter-spacing="10" fill="#00f6ff" opacity=".62">GURTEJBIR</text>
+      <text x="604" y="118" font-size="74" letter-spacing="10" fill="#ff2bd6" opacity=".62">GURTEJBIR</text>
+      <text x="600" y="118" font-size="74" letter-spacing="10" fill="url(#nameGlow)" filter="url(#glow)">GURTEJBIR
+        <animate attributeName="x" values="600;600;593;607;600;600" keyTimes="0;.68;.71;.74;.78;1" dur="4.6s" repeatCount="indefinite"/>
+      </text>
+      <text x="600" y="275" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="7" fill="#f6ddff">NIGHT BEGINS TO SHINE // BUILD MODE: ON</text>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2">
+      <text x="48" y="54" fill="#00f6ff">CHANNEL 87.7 // GURTEJ.NODE</text>
+      <text x="1152" y="54" text-anchor="end" fill="#ff72df">RETRO FUTURE // 2026</text>
+      <text x="48" y="480" fill="#b9a8ff">AI / FULL-STACK / PRODUCT / MOTION</text>
+      <text x="1152" y="480" text-anchor="end" fill="#00f6ff">SIGNAL LOCKED ●</text>
+    </g>
+
+    <rect x="24" y="24" width="1152" height="472" fill="url(#scanlines)" opacity=".55"/>
+    <rect x="24" y="40" width="1152" height="3" fill="#e8ffff" opacity=".55" filter="url(#glow)">
+      <animate attributeName="y" values="40;488;40" dur="6.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.55;.08;0" dur="6.2s" repeatCount="indefinite"/>
     </rect>
-  </g>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2">
-    <text x="72" y="73" fill="#00f0ff">SYS://GURTEJ.NODE</text>
-    <circle cx="1114" cy="68" r="5" fill="#39ff14" filter="url(#glow)"><animate attributeName="opacity" values="1;.22;1" dur="1.2s" repeatCount="indefinite"/></circle>
-    <text x="1138" y="73" text-anchor="end" fill="#a7ffb0">ONLINE</text>
-    <text x="72" y="360" fill="#9d8cff">AI × FULL-STACK × PRODUCT</text>
-    <text x="1128" y="360" text-anchor="end" fill="#ff6bdc">BUILD // BREAK // REFACTOR // SHIP</text>
-  </g>
-
-  <g transform="translate(72 112)">
-    <rect width="1056" height="192" rx="14" fill="#05020f" fill-opacity=".72" stroke="url(#neon)" stroke-width="1.2"/>
-    <path d="M0 28H140L160 8H440" fill="none" stroke="#00f0ff" stroke-opacity=".6"/>
-    <path d="M1056 162H930L910 184H640" fill="none" stroke="#ff2bd6" stroke-opacity=".6"/>
-
-    <text x="528" y="78" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="58" letter-spacing="8" fill="url(#neon)" filter="url(#softGlow)">GURTEJBIR</text>
-    <text x="528" y="78" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="58" letter-spacing="8" fill="url(#neon)">GURTEJBIR
-      <animate attributeName="x" values="528;528;521;535;528;528" keyTimes="0;.72;.75;.78;.81;1" dur="4.2s" repeatCount="indefinite"/>
-    </text>
-    <text x="528" y="128" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="25" letter-spacing="12" fill="#e7e5ff">S I N G H</text>
-    <text x="528" y="162" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="4" fill="#00f0ff">ENGINEERING EXPERIENCES AT THE EDGE OF CODE + DESIGN + AI</text>
-
-    <rect x="26" y="154" width="92" height="6" rx="3" fill="#16122e"/>
-    <rect x="26" y="154" width="18" height="6" rx="3" fill="#00f0ff"><animate attributeName="width" values="18;92;42;78;18" dur="4s" repeatCount="indefinite"/></rect>
-    <rect x="938" y="30" width="92" height="6" rx="3" fill="#16122e"/>
-    <rect x="938" y="30" width="18" height="6" rx="3" fill="#ff2bd6"><animate attributeName="width" values="70;25;92;48;70" dur="3.5s" repeatCount="indefinite"/></rect>
-  </g>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#6f67a5">
-    <text x="72" y="388">LATENCY 07ms</text>
-    <text x="210" y="388">SIGNAL 99.97%</text>
-    <text x="1010" y="388">v2026.08</text>
+    <g opacity="0">
+      <rect x="80" y="92" width="1040" height="8" fill="#00f6ff"/>
+      <rect x="210" y="132" width="760" height="5" fill="#ff2bd6"/>
+      <animate attributeName="opacity" values="0;0;.55;0;0" keyTimes="0;.72;.735;.75;1" dur="5.1s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 0;22 -5;-18 4;0 0" keyTimes="0;.72;.735;.75;1" dur="5.1s" repeatCount="indefinite"/>
+    </g>
   </g>
 </svg>
