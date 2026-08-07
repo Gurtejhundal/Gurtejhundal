@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="t d">
+<title id="t">Systems Matrix</title><desc id="d">Animated technology stack and engineering focus matrix.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#090c0e"/><stop offset="1" stop-color="#10161a"/></linearGradient>
+ <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#263039" opacity=".38"/></pattern>
+ <filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="390" rx="18" fill="url(#bg)"/><rect x="16" y="16" width="1168" height="358" rx="13" fill="url(#grid)" stroke="#2c373e"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+ <text x="48" y="56" font-size="12" letter-spacing="2" fill="#ff6b35">03 // SYSTEMS MATRIX</text><text x="48" y="86" font-size="22" font-weight="700" fill="#f3eee4">WORKING STACK / SIGNAL MAP</text>
+ <g transform="translate(52 118)">
+  <path d="M90 45H340M340 45H590M590 45H840M840 45H1040M90 145H340M340 145H590M590 145H840M840 145H1040M90 45V145M340 45V145M590 45V145M840 45V145M1040 45V145" stroke="#26343b"/>
+  <g fill="#ff6b35"><circle r="5"><animateMotion dur="3.6s" repeatCount="indefinite" path="M90 45H1040"/></circle><circle r="4"><animateMotion dur="4.2s" begin=".8s" repeatCount="indefinite" path="M1040 145H90"/></circle><circle r="4"><animateMotion dur="2.8s" begin=".4s" repeatCount="indefinite" path="M340 45V145"/></circle><circle r="4"><animateMotion dur="3.3s" begin="1.1s" repeatCount="indefinite" path="M840 145V45"/></circle></g>
+  <g text-anchor="middle">
+   <g transform="translate(90 45)"><circle r="31" fill="#10161a" stroke="#47565f"/><circle r="5" fill="#8bd450"><animate attributeName="r" values="5;8;5" dur="1.7s" repeatCount="indefinite"/></circle><text y="57" font-size="12" fill="#f3eee4">REACT / VITE</text><text y="75" font-size="9" fill="#718087">INTERFACE</text></g>
+   <g transform="translate(340 45)"><circle r="31" fill="#10161a" stroke="#47565f"/><path d="M-10 0H10M0-10V10" stroke="#ff6b35" stroke-width="3"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="5s" repeatCount="indefinite"/></path><text y="57" font-size="12" fill="#f3eee4">FRAMER / HTMX</text><text y="75" font-size="9" fill="#718087">INTERACTION</text></g>
+   <g transform="translate(590 45)"><circle r="31" fill="#10161a" stroke="#47565f"/><rect x="-12" y="-12" width="24" height="24" fill="none" stroke="#ff6b35" stroke-width="2"><animateTransform attributeName="transform" type="rotate" values="0;90;180;270;360" dur="7s" repeatCount="indefinite"/></rect><text y="57" font-size="12" fill="#f3eee4">FASTAPI / DJANGO</text><text y="75" font-size="9" fill="#718087">BACKEND</text></g>
+   <g transform="translate(840 45)"><circle r="31" fill="#10161a" stroke="#47565f"/><ellipse rx="13" ry="6" fill="none" stroke="#ff6b35"/><ellipse rx="13" ry="6" fill="none" stroke="#ff6b35" transform="translate(0 7)"/><ellipse rx="13" ry="6" fill="none" stroke="#ff6b35" transform="translate(0 14)"/><text y="57" font-size="12" fill="#f3eee4">POSTGRES / SQLITE</text><text y="75" font-size="9" fill="#718087">DATA</text></g>
+   <g transform="translate(1040 45)"><circle r="31" fill="#10161a" stroke="#47565f"/><path d="M-13 8L0-13 13 8Z" fill="none" stroke="#8bd450" stroke-width="2"><animate attributeName="opacity" values=".35;1;.35" dur="1.3s" repeatCount="indefinite"/></path><text y="57" font-size="12" fill="#f3eee4">NGINX / GUNICORN</text><text y="75" font-size="9" fill="#718087">DELIVERY</text></g>
+  </g>
+  <g transform="translate(0 205)">
+   <rect x="0" width="1090" height="94" rx="9" fill="#0d1215" stroke="#304049"/>
+   <text x="20" y="25" font-size="10" letter-spacing="2" fill="#68777f">ENGINEERING FOCUS CHANNELS</text>
+   <g font-size="11" fill="#f3eee4"><text x="20" y="55">FULL-STACK PRODUCT DEVELOPMENT</text><text x="285" y="55">RESPONSIVE UI</text><text x="455" y="55">DEVELOPER TOOLING</text><text x="650" y="55">AGENT WORKFLOWS</text><text x="845" y="55">PERFORMANCE / QA</text></g>
+   <g transform="translate(20 69)" fill="#ff6b35"><rect width="210" height="4"><animate attributeName="width" values="30;210;30" dur="4s" repeatCount="indefinite"/></rect><rect x="265" width="130" height="4"><animate attributeName="width" values="20;130;20" dur="3.2s" repeatCount="indefinite"/></rect><rect x="435" width="150" height="4"><animate attributeName="width" values="35;150;35" dur="4.8s" repeatCount="indefinite"/></rect><rect x="630" width="145" height="4"><animate attributeName="width" values="25;145;25" dur="3.7s" repeatCount="indefinite"/></rect><rect x="825" width="175" height="4"><animate attributeName="width" values="40;175;40" dur="4.3s" repeatCount="indefinite"/></rect></g>
+  </g>
+ </g>
+</g>
+</svg>
