@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790" role="img" aria-labelledby="t d">
+<title id="t">System architecture, active quests and telemetry gate</title>
+<desc id="d">Cyberpunk systems panel showing Gurtejbir's stack, engineering rules, active learning missions and live telemetry gate.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#02030a"/>
+      <stop offset=".45" stop-color="#08041a"/>
+      <stop offset="1" stop-color="#120326"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f6ff"/>
+      <stop offset=".5" stop-color="#7c3cff"/>
+      <stop offset="1" stop-color="#ff2bd6"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" opacity=".22"/>
+    </pattern>
+    <pattern id="microgrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1b1640" stroke-width="1" opacity=".45"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+<rect width="1200" height="790" fill="url(#bg)"/>
+<rect width="1200" height="790" fill="url(#microgrid)" opacity=".6"/>
+<path d="M30 24H1170V766H30Z" fill="#050411" stroke="#27144e" stroke-width="2"/>
+<path d="M30 24H500M700 24H1170" stroke="url(#neon)" stroke-width="3"/>
+<g font-family="ui-monospace, Menlo, Consolas, monospace">
+  <text x="68" y="66" fill="#00f6ff" font-size="13" letter-spacing="3">03 // SYSTEM ARCHITECTURE</text>
+  <text x="1132" y="66" text-anchor="end" fill="#ff2bd6" font-size="12" letter-spacing="2">STACK MAP // LIVE</text>
+  <text x="68" y="112" fill="#f7f2ff" font-size="24" font-weight="700">TOOLS ARE CHEAP. SYSTEM THINKING IS THE ADVANTAGE.</text>
+
+  <text x="72" y="166" fill="#ff2bd6" font-size="12" letter-spacing="2">FRONTEND BUS</text>
+  <g font-size="14" fill="#e8ffff">
+    <text x="72" y="196">REACT</text><text x="172" y="196">NEXT.JS</text><text x="292" y="196">TYPESCRIPT</text><text x="438" y="196">VITE</text><text x="520" y="196">TAILWIND</text>
+  </g><path d="M72 210H700" stroke="#40206c"/>
+
+  <text x="72" y="248" fill="#00f6ff" font-size="12" letter-spacing="2">BACKEND BUS</text>
+  <g font-size="14" fill="#e8ffff">
+    <text x="72" y="278">PYTHON</text><text x="180" y="278">FASTAPI</text><text x="294" y="278">DJANGO</text><text x="398" y="278">REST</text><text x="475" y="278">SQLALCHEMY</text>
+  </g><path d="M72 292H700" stroke="#40206c"/>
+
+  <text x="72" y="330" fill="#ff2bd6" font-size="12" letter-spacing="2">DATA / AI / DELIVERY</text>
+  <g font-size="14" fill="#e8ffff">
+    <text x="72" y="360">POSTGRES</text><text x="196" y="360">SUPABASE</text><text x="320" y="360">AGENTS</text><text x="414" y="360">GIT</text><text x="476" y="360">DOCKER</text><text x="574" y="360">VERCEL</text>
+  </g><path d="M72 374H700" stroke="#40206c"/>
+
+  <rect x="748" y="145" width="380" height="250" rx="8" fill="#070316" stroke="#51238e"/>
+  <text x="778" y="179" fill="#00f6ff" font-size="12" letter-spacing="2">ENGINEERING RULESET</text>
+  <text x="778" y="221" fill="#e8ffff" font-size="14">01  UNDERSTAND THE SYSTEM FIRST</text>
+  <text x="778" y="255" fill="#e8ffff" font-size="14">02  RESPONSIVE = RECONSTRUCTION</text>
+  <text x="778" y="289" fill="#e8ffff" font-size="14">03  AI NEEDS BOUNDARIES + EVIDENCE</text>
+  <text x="778" y="323" fill="#e8ffff" font-size="14">04  ANIMATION MUST SUPPORT HIERARCHY</text>
+  <text x="778" y="357" fill="#e8ffff" font-size="14">05  SHIPPING INCLUDES VERIFICATION</text>
+
+  <text x="68" y="444" fill="#ff2bd6" font-size="13" letter-spacing="3">04 // QUEST BOARD</text>
+  <path d="M68 458H1132" stroke="url(#neon)" opacity=".7"/>
+  <g font-size="13">
+    <text x="72" y="505" fill="#00f6ff">DSA_400</text><text x="242" y="505" fill="#e8ffff">BUILD REAL ALGORITHMIC PATTERN RECOGNITION</text><text x="1045" y="505" fill="#8d81ad">PYTHON</text>
+    <text x="72" y="548" fill="#ff2bd6">AGENT_SYSTEMS</text><text x="242" y="548" fill="#e8ffff">MAKE AI WORKFLOWS EXPLICIT, BOUNDED AND TESTABLE</text><text x="1045" y="548" fill="#8d81ad">EVIDENCE</text>
+    <text x="72" y="591" fill="#9f6cff">PRODUCT_ENGINEERING</text><text x="242" y="591" fill="#e8ffff">TECHNICALLY CORRECT PRODUCTS WITH MEMORABLE INTERFACES</text><text x="1045" y="591" fill="#8d81ad">SHIP</text>
+    <text x="72" y="634" fill="#ffd166">SYSTEMS</text><text x="242" y="634" fill="#e8ffff">ARCHITECTURE // DEBUGGING // PERFORMANCE // VERIFICATION</text><text x="1045" y="634" fill="#8d81ad">DEPTH</text>
+  </g>
+
+  <path d="M68 682H1132" stroke="#2d1756"/>
+  <text x="68" y="724" fill="#00f6ff" font-size="13" letter-spacing="3">05 // LIVE TELEMETRY</text>
+  <text x="68" y="752" fill="#f7f2ff" font-size="16" font-weight="700">AFTER MIDNIGHT ACTIVITY SIGNAL // PUBLIC FEED ↓</text>
+  <text x="1132" y="752" text-anchor="end" fill="#ff2bd6" font-size="11" letter-spacing="2">DATA SOURCE // GITHUB</text>
+</g>
+<circle cx="1142" cy="748" r="4" fill="#00f6ff"><animate attributeName="opacity" values="1;.15;1" dur=".8s" repeatCount="indefinite"/></circle>
+<rect x="0" y="16" width="1200" height="2" fill="#00f6ff" opacity=".2"><animate attributeName="y" values="16;774;16" dur="7.8s" repeatCount="indefinite"/></rect>
+<rect width="1200" height="790" fill="url(#scan)" opacity=".32"/>
+</svg>
