@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
+<title id="t">Flight Deck</title><desc id="d">Animated mission-control flight deck describing Gurtejbir Singh's engineering workflow.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0a0d0f"/><stop offset="1" stop-color="#11171b"/></linearGradient>
+  <linearGradient id="scan" x1="0" x2="1"><stop stop-color="#ff6b35" stop-opacity="0"/><stop offset=".5" stop-color="#ff6b35" stop-opacity=".75"/><stop offset="1" stop-color="#ff6b35" stop-opacity="0"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#263039" opacity=".45"/></pattern>
+  <filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="340" rx="18" fill="url(#bg)"/><rect x="16" y="16" width="1168" height="308" rx="13" fill="url(#grid)" stroke="#2c373e"/>
+<rect x="-220" y="16" width="220" height="308" fill="url(#scan)" opacity=".24"><animate attributeName="x" values="-220;1200" dur="4.8s" repeatCount="indefinite"/></rect>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+ <text x="48" y="56" font-size="12" letter-spacing="2" fill="#ff6b35">01 // FLIGHT DECK</text>
+ <text x="48" y="94" font-size="25" font-weight="700" fill="#f3eee4">CURRENT VECTOR</text>
+ <text x="48" y="126" font-size="14" fill="#9ba7ae">Product systems / developer tools / interfaces that reduce workflow friction.</text>
+ <g transform="translate(48 158)">
+  <rect width="510" height="120" rx="10" fill="#0d1215" stroke="#334149"/>
+  <text x="22" y="30" font-size="11" letter-spacing="2" fill="#68777f">OPERATING INTENT</text>
+  <text x="22" y="62" font-size="17" fill="#f3eee4">Frontend craft + backend structure + product thinking.</text>
+  <text x="22" y="88" font-size="15" fill="#a8b1b6">One coherent system beats ten disconnected demos.</text>
+  <circle cx="22" cy="104" r="4" fill="#8bd450"><animate attributeName="r" values="4;7;4" dur="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.35;1" dur="1.5s" repeatCount="indefinite"/></circle>
+  <text x="36" y="109" font-size="11" fill="#8bd450">MISSION ACTIVE</text>
+ </g>
+ <g transform="translate(618 86)">
+  <text x="0" y="0" font-size="11" letter-spacing="2" fill="#68777f">EXECUTION PIPELINE</text>
+  <path d="M20 44H500" stroke="#344149" stroke-width="2"/>
+  <path d="M20 44H500" stroke="#ff6b35" stroke-width="2" stroke-dasharray="10 20"><animate attributeName="stroke-dashoffset" values="0;-60" dur="1.2s" repeatCount="indefinite"/></path>
+  <g font-size="11" text-anchor="middle">
+   <g transform="translate(28 44)"><circle r="17" fill="#10161a" stroke="#ff6b35"/><text y="4" fill="#f3eee4">01</text><text y="40" fill="#a8b1b6">UNDERSTAND</text></g>
+   <g transform="translate(125 44)"><circle r="17" fill="#10161a" stroke="#59666e"/><text y="4" fill="#f3eee4">02</text><text y="40" fill="#a8b1b6">REDUCE</text></g>
+   <g transform="translate(222 44)"><circle r="17" fill="#10161a" stroke="#59666e"/><text y="4" fill="#f3eee4">03</text><text y="40" fill="#a8b1b6">BUILD</text></g>
+   <g transform="translate(319 44)"><circle r="17" fill="#10161a" stroke="#59666e"/><text y="4" fill="#f3eee4">04</text><text y="40" fill="#a8b1b6">TEST</text></g>
+   <g transform="translate(416 44)"><circle r="17" fill="#10161a" stroke="#59666e"/><text y="4" fill="#f3eee4">05</text><text y="40" fill="#a8b1b6">REFINE</text></g>
+   <g transform="translate(500 44)"><circle r="17" fill="#10161a" stroke="#8bd450"/><text y="4" fill="#f3eee4">06</text><text y="40" fill="#8bd450">SHIP</text></g>
+  </g>
+  <circle cx="28" cy="44" r="6" fill="#ff6b35" filter="url(#g)"><animate attributeName="cx" values="28;125;222;319;416;500;28" dur="7.2s" repeatCount="indefinite"/></circle>
+  <g transform="translate(0 126)">
+   <rect width="520" height="88" rx="8" fill="#0d1215" stroke="#2d3940"/>
+   <text x="18" y="25" font-size="11" letter-spacing="2" fill="#68777f">LIVE COMMAND</text>
+   <text x="18" y="53" font-size="14" fill="#f3eee4">$ solve workflow --ship --observe --repeat</text>
+   <rect x="430" y="42" width="8" height="18" fill="#ff6b35"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
+   <g transform="translate(18 69)"><rect width="442" height="4" rx="2" fill="#222c32"/><rect width="86" height="4" rx="2" fill="#ff6b35"><animate attributeName="width" values="50;430;50" dur="3.8s" repeatCount="indefinite"/></rect></g>
+  </g>
+ </g>
+ <text x="48" y="312" font-size="10" letter-spacing="2" fill="#5f6c73">PORTFOLIO CHANNEL // ENGINEERING SIGNAL LOCKED</text>
+</g>
+</svg>
