@@ -1,71 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Gurtejbir retro broadcast console</title>
-  <desc id="desc">Animated CRT console showing profile identity, active missions and engineering signal.</desc>
-  <defs>
-    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00f6ff"/>
-      <stop offset=".5" stop-color="#7f3cff"/>
-      <stop offset="1" stop-color="#ff2bd6"/>
-    </linearGradient>
-    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="2" fill="#000" opacity=".28"/>
-    </pattern>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-
-  <rect width="1200" height="360" rx="24" fill="#02010a"/>
-  <rect x="16" y="16" width="1168" height="328" rx="20" fill="#070315" stroke="url(#frame)" stroke-width="1.5"/>
-  <rect x="30" y="30" width="1140" height="300" rx="14" fill="#03010c"/>
-  <rect x="30" y="30" width="1140" height="300" rx="14" fill="url(#scan)" opacity=".65"/>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="52" y="60" fill="#00f6ff" font-size="12" letter-spacing="2">NEON SHELL // AFTER MIDNIGHT BUILD STATION</text>
-    <text x="1148" y="60" text-anchor="end" fill="#ff2bd6" font-size="12" letter-spacing="2">REC ●</text>
-
-    <g font-size="18">
-      <g opacity="0">
-        <text x="54" y="103" fill="#ff2bd6">C:\NEON&gt;</text><text x="156" y="103" fill="#eafcff">whoami</text>
-        <animate attributeName="opacity" values="0;1;1" keyTimes="0;.06;1" dur="12s" repeatCount="indefinite"/>
-      </g>
-      <g opacity="0">
-        <text x="54" y="132" fill="#00f6ff">GURTEJBIR SINGH</text>
-        <text x="238" y="132" fill="#9c8ec9">// CSE (AI/ML) // engineer // interface obsessive</text>
-        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.10;.15;1" dur="12s" repeatCount="indefinite"/>
-      </g>
-
-      <g opacity="0">
-        <text x="54" y="176" fill="#ff2bd6">C:\NEON&gt;</text><text x="156" y="176" fill="#eafcff">dir /missions</text>
-        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.21;.26;1" dur="12s" repeatCount="indefinite"/>
-      </g>
-      <g opacity="0">
-        <text x="54" y="205" fill="#b99cff">VibeMaxing\   Ghost-Engineer\   Roadmap-Tracer\   DSA_400_Days\</text>
-        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.31;.37;1" dur="12s" repeatCount="indefinite"/>
-      </g>
-
-      <g opacity="0">
-        <text x="54" y="249" fill="#ff2bd6">C:\NEON&gt;</text><text x="156" y="249" fill="#eafcff">type doctrine.txt</text>
-        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.43;.49;1" dur="12s" repeatCount="indefinite"/>
-      </g>
-      <g opacity="0">
-        <text x="54" y="278" fill="#00f6ff">BUILD IT. TEST IT. MAKE IT FEEL ALIVE. VERIFY BEFORE “DONE.”</text>
-        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.55;.62;1" dur="12s" repeatCount="indefinite"/>
-      </g>
-
-      <g opacity="0">
-        <text x="54" y="313" fill="#ff2bd6">C:\NEON&gt;</text>
-        <rect x="158" y="297" width="11" height="19" fill="#00f6ff" filter="url(#glow)">
-          <animate attributeName="opacity" values="1;0;1" dur=".82s" repeatCount="indefinite"/>
-        </rect>
-        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.70;.75;1" dur="12s" repeatCount="indefinite"/>
-      </g>
-    </g>
-  </g>
-
-  <rect x="30" y="36" width="1140" height="2" fill="#00f6ff" opacity=".42" filter="url(#glow)">
-    <animate attributeName="y" values="36;326;36" dur="5.4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;.45;.05;0" dur="5.4s" repeatCount="indefinite"/>
-  </rect>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="t d">
+<title id="t">Identity transmission</title><desc id="d">Raven narrates Gurtejbir Singh's identity and current engineering focus from the left edge.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05000d"/><stop offset=".5" stop-color="#120229"/><stop offset="1" stop-color="#26053c"/></linearGradient><linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f6ff"/><stop offset=".5" stop-color="#9250ff"/><stop offset="1" stop-color="#ff2bd6"/></linearGradient><filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity=".16"/></pattern></defs>
+<rect width="1200" height="470" fill="url(#bg)"/><path d="M26 24H1174V446H26Z" fill="#060311" stroke="#321c55" stroke-width="2"/>
+<g transform="translate(-12 170) scale(1.0)"><path d="M60 14 Q95 -16 132 18 L153 102 122 164 69 164 35 104Z" fill="#42206b" stroke="#150a24" stroke-width="5"/><path d="M72 44 Q95 27 116 44 L122 82 105 98 82 93 69 75Z" fill="#ded3d8" stroke="#24162d" stroke-width="4"/><path d="M76 58 L111 58" stroke="#101018" stroke-width="6"/><path d="M52 126 L18 188M136 128 L166 190" stroke="#2b173f" stroke-width="16" stroke-linecap="round"/><path d="M69 163 L56 238M121 163 L132 238" stroke="#20122f" stroke-width="18" stroke-linecap="round"/><circle cx="93" cy="30" r="6" fill="#ff406c"/></g>
+<g font-family="ui-monospace, Menlo, Consolas, monospace"><text x="300" y="72" fill="#00f6ff" font-size="13" letter-spacing="3">01 // IDENTITY TRANSMISSION</text><text x="300" y="120" fill="#fff" font-size="26" font-weight="700">ENGINEERING WITH TASTE. SHIPPING WITH EVIDENCE.</text><path d="M300 142H1100" stroke="url(#neon)" stroke-width="2"/><text x="325" y="192" fill="#ff2bd6" font-size="12" letter-spacing="2">CALLSIGN</text><text x="500" y="192" fill="#fff" font-size="16">GURTEJBIR SINGH</text><text x="325" y="231" fill="#00f6ff" font-size="12" letter-spacing="2">DISCIPLINE</text><text x="500" y="231" fill="#fff" font-size="16">B.TECH CSE — AI / ML</text><text x="325" y="270" fill="#ff2bd6" font-size="12" letter-spacing="2">OPERATING ON</text><text x="500" y="270" fill="#fff" font-size="16">FULL-STACK ENGINEERING · AI SYSTEMS · PRODUCT · MOTION</text><text x="325" y="309" fill="#00f6ff" font-size="12" letter-spacing="2">CURRENT ARC</text><text x="500" y="309" fill="#fff" font-size="16">400 DAYS OF DSA · DEEPER SYSTEMS · BETTER PRODUCT EXECUTION</text><text x="325" y="348" fill="#ff2bd6" font-size="12" letter-spacing="2">RULE</text><text x="500" y="348" fill="#fff" font-size="16">INSPECT → BUILD → TEST → REFINE → SHIP</text></g>
+<path d="M170 64H420L450 96 420 128H170L145 96Z" fill="#0b0619" stroke="#7b4cff" stroke-width="2"/><text x="295" y="91" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#cdb9ff">“Cut the noise.</text><text x="295" y="111" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#fff">Keep the signal.”</text><rect width="1200" height="470" fill="url(#scan)" opacity=".32"/></svg>

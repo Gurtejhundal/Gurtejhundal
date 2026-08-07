@@ -1,1 +1,0 @@
-This temporary marker will be removed by the final profile redesign commit.
