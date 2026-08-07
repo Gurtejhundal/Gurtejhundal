@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180" role="img" aria-labelledby="t d">
+<title id="t">Initializing contribution matrix</title><desc id="d">Animated neon placeholder until the contribution snake workflow publishes live activity.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00f0ff"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ff2bd6"/></linearGradient><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1000" height="180" rx="18" fill="#030207"/><rect x="12" y="12" width="976" height="156" rx="14" fill="none" stroke="#21194a"/>
+<g fill="#15102e">
+<circle cx="80" cy="52" r="6"/><circle cx="108" cy="52" r="6"/><circle cx="136" cy="52" r="6"/><circle cx="164" cy="52" r="6"/><circle cx="192" cy="52" r="6"/><circle cx="220" cy="52" r="6"/><circle cx="248" cy="52" r="6"/><circle cx="276" cy="52" r="6"/><circle cx="304" cy="52" r="6"/><circle cx="332" cy="52" r="6"/><circle cx="360" cy="52" r="6"/><circle cx="388" cy="52" r="6"/><circle cx="416" cy="52" r="6"/><circle cx="444" cy="52" r="6"/><circle cx="472" cy="52" r="6"/><circle cx="500" cy="52" r="6"/><circle cx="528" cy="52" r="6"/><circle cx="556" cy="52" r="6"/><circle cx="584" cy="52" r="6"/><circle cx="612" cy="52" r="6"/><circle cx="640" cy="52" r="6"/><circle cx="668" cy="52" r="6"/><circle cx="696" cy="52" r="6"/><circle cx="724" cy="52" r="6"/><circle cx="752" cy="52" r="6"/><circle cx="780" cy="52" r="6"/><circle cx="808" cy="52" r="6"/><circle cx="836" cy="52" r="6"/><circle cx="864" cy="52" r="6"/><circle cx="892" cy="52" r="6"/>
+</g>
+<rect x="76" y="48" width="16" height="8" rx="4" fill="url(#g)" filter="url(#glow)"><animate attributeName="x" values="76;888;76" dur="5s" repeatCount="indefinite"/></rect>
+<text x="500" y="105" text-anchor="middle" fill="#00f0ff" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="16" letter-spacing="3">INITIALIZING CONTRIBUTION MATRIX</text>
+<text x="500" y="135" text-anchor="middle" fill="#777095" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12">live snake replaces this automatically on the next workflow run</text>
+<circle cx="675" cy="101" r="3" fill="#ff2bd6"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></circle>
+</svg>
