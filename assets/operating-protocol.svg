@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="t d">
+<title id="t">Operating Protocol</title><desc id="d">Animated engineering principles sequenced like mission-control protocol.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#090c0e"/><stop offset="1" stop-color="#10161a"/></linearGradient>
+ <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#263039" opacity=".35"/></pattern>
+ <filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="330" rx="18" fill="url(#bg)"/><rect x="16" y="16" width="1168" height="298" rx="13" fill="url(#grid)" stroke="#2c373e"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+ <text x="48" y="56" font-size="12" letter-spacing="2" fill="#ff6b35">04 // OPERATING PROTOCOL</text>
+ <text x="48" y="86" font-size="22" font-weight="700" fill="#f3eee4">ENGINEERING RULESET / SEQUENCER</text>
+ <g transform="translate(48 122)" font-size="12">
+  <path d="M22 18V160" stroke="#334149" stroke-width="2"/><path d="M22 18V160" stroke="#ff6b35" stroke-width="2" stroke-dasharray="8 16"><animate attributeName="stroke-dashoffset" values="0;-48" dur="1.3s" repeatCount="indefinite"/></path>
+  <g transform="translate(0 0)"><circle cx="22" cy="18" r="9" fill="#10161a" stroke="#ff6b35"/><text x="48" y="22" fill="#f3eee4">[01] SOLVE THE WORKFLOW, NOT THE SCREEN</text><rect x="790" y="9" width="205" height="12" rx="6" fill="#20292e"/><rect x="790" y="9" width="160" height="12" rx="6" fill="#ff6b35"><animate attributeName="width" values="40;190;160" dur="5s" repeatCount="indefinite"/></rect></g>
+  <g transform="translate(0 36)"><circle cx="22" cy="18" r="9" fill="#10161a" stroke="#59666e"><animate attributeName="stroke" values="#59666e;#ff6b35;#59666e" dur="5s" begin="1s" repeatCount="indefinite"/></circle><text x="48" y="22" fill="#f3eee4">[02] MOBILE IS A DIFFERENT LAYOUT PROBLEM, NOT A SMALLER DESKTOP</text></g>
+  <g transform="translate(0 72)"><circle cx="22" cy="18" r="9" fill="#10161a" stroke="#59666e"><animate attributeName="stroke" values="#59666e;#ff6b35;#59666e" dur="5s" begin="2s" repeatCount="indefinite"/></circle><text x="48" y="22" fill="#f3eee4">[03] AUTOMATION NEEDS CONSTRAINTS, CHECKS, AND EVIDENCE</text></g>
+  <g transform="translate(0 108)"><circle cx="22" cy="18" r="9" fill="#10161a" stroke="#59666e"><animate attributeName="stroke" values="#59666e;#ff6b35;#59666e" dur="5s" begin="3s" repeatCount="indefinite"/></circle><text x="48" y="22" fill="#f3eee4">[04] BUILD SUCCESS IS NOT PRODUCT SUCCESS</text></g>
+  <g transform="translate(0 144)"><circle cx="22" cy="18" r="9" fill="#10161a" stroke="#8bd450"><animate attributeName="r" values="9;13;9" dur="1.8s" repeatCount="indefinite"/></circle><text x="48" y="22" fill="#8bd450">[05] SHIP → OBSERVE → FIX → REPEAT</text></g>
+  <circle cx="22" cy="18" r="5" fill="#ff6b35" filter="url(#g)"><animate attributeName="cy" values="18;54;90;126;162;18" dur="5s" repeatCount="indefinite"/></circle>
+ </g>
+ <text x="48" y="305" font-size="10" letter-spacing="2" fill="#5f6c73">PROTOCOL LOCK // NO SHORTCUTS // EVIDENCE REQUIRED</text>
+</g>
+</svg>
