@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">Final Level — Continue</title>
+  <desc id="desc">A moonlit pixel castle and a prompt to continue to Gurtejbir Singh's portfolio or repositories.</desc>
+  <style>
+    .pixel { font-family: "Courier New", ui-monospace, monospace; font-weight: 900; }
+    .pulse { animation: pulse 1.4s steps(2,end) infinite; }.star { animation: twinkle 2s steps(2,end) infinite; }.s2 { animation-delay:.6s; }.s3 { animation-delay:1.1s; }
+    @keyframes pulse { 50% { opacity:.25; } } @keyframes twinkle { 50% { opacity:.25; } }
+    @media (prefers-reduced-motion: reduce) { .pulse,.star { animation:none; } }
+  </style>
+  <rect width="1200" height="330" fill="#11142f"/><rect x="18" y="18" width="1164" height="294" fill="#171b3d" stroke="#ffd166" stroke-width="6"/>
+  <g fill="#fff7d6"><rect class="star" x="90" y="62" width="8" height="8"/><rect class="star s2" x="250" y="104" width="6" height="6"/><rect class="star s3" x="1060" y="58" width="8" height="8"/><rect class="star s2" x="936" y="122" width="6" height="6"/></g>
+  <circle cx="1010" cy="92" r="42" fill="#fff0a5"/><rect x="1010" y="50" width="42" height="84" fill="#171b3d"/>
+  <g transform="translate(76 157)">
+    <rect y="42" width="166" height="90" fill="#744029"/><rect x="22" y="18" width="38" height="114" fill="#9a5a36"/><rect x="106" y="18" width="38" height="114" fill="#9a5a36"/>
+    <rect x="14" y="4" width="18" height="20" fill="#9a5a36"/><rect x="50" y="4" width="18" height="20" fill="#9a5a36"/><rect x="98" y="4" width="18" height="20" fill="#9a5a36"/><rect x="134" y="4" width="18" height="20" fill="#9a5a36"/>
+    <rect x="62" y="78" width="42" height="54" fill="#101125"/><rect x="34" y="48" width="18" height="22" fill="#ffd166"/><rect x="114" y="48" width="18" height="22" fill="#ffd166"/>
+    <rect y="132" width="190" height="16" fill="#2b8a3e"/><rect y="148" width="190" height="16" fill="#166534"/>
+  </g>
+  <g class="pixel" text-anchor="middle">
+    <text x="664" y="74" font-size="17" fill="#ffd166" letter-spacing="3">FINAL LEVEL</text><text x="664" y="118" font-size="35" fill="#fff7d6" letter-spacing="2">CONTINUE THE QUEST?</text>
+    <text x="664" y="158" font-size="16" fill="#b9d9f4">PRODUCT SYSTEMS · AI TOOLS · INTERFACES WITH INTENT</text><text x="664" y="209" font-size="19" fill="#79c850" class="pulse">[ A ] ENTER PORTFOLIO</text>
+    <text x="664" y="246" font-size="19" fill="#5c94fc">[ B ] VIEW ALL REPOSITORIES</text><text x="664" y="284" font-size="13" fill="#c8c3dc">NO GAME OVER — JUST THE NEXT ITERATION.</text>
+  </g>
+</svg>

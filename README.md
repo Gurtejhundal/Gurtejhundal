@@ -1,51 +1,65 @@
 <div align="center">
   <a href="https://gurtejbirsingh.vercel.app/">
-    <img src="./assets/mission-control.svg" width="100%" alt="Gurtejbir Singh — Mission Control" />
+    <img src="./assets/level-01-start.svg" width="100%" alt="Gurtejbir Singh — full-stack engineer and AI builder in an eight-bit platform game world" />
   </a>
 </div>
 
-<br/>
-
-<img src="./assets/flight-deck.svg" width="100%" alt="Animated Flight Deck — Gurtejbir Singh engineering workflow" />
-
-<div align="center">
-  <a href="https://gurtejbirsingh.vercel.app/"><b>PORTFOLIO ↗</b></a>
+<p align="center">
+  <a href="https://gurtejbirsingh.vercel.app/"><b>[ START GAME — PORTFOLIO ]</b></a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="https://github.com/Gurtejhundal?tab=repositories"><b>ALL REPOSITORIES ↗</b></a>
-</div>
-
-<br/>
-
-<img src="./assets/featured-systems.svg" width="100%" alt="Animated Featured Systems console" />
+  <a href="https://github.com/Gurtejhundal?tab=repositories"><b>[ LEVEL SELECT — REPOSITORIES ]</b></a>
+</p>
 
 <div align="center">
-  <a href="https://github.com/Gurtejhundal/Roadmap-Tracer">ROADMAP TRACER</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/Gurtejhundal/VibeMaxing">WEBSITE AGENT SKILLS</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/Gurtejhundal/BKJH">BIBI KAULAN JI HOSPITAL</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/Gurtejhundal/DSA_400_Days_Challenge">DSA 400 DAYS</a>
+  <img src="./assets/player-gurtej.png" width="210" alt="Pixel-art player character of Gurtejbir Singh wearing a maroon turban, white shirt, and dark trousers" />
+  <h3>PLAYER 01 // GURTEJBIR SINGH</h3>
+  <p><code>CLASS</code> Full-stack engineer + AI builder</p>
+  <p><code>FOCUS</code> Product systems · developer tools · local-first software · purposeful interfaces</p>
+  <p><code>CURRENT QUEST</code> Deeper systems · stronger product execution · consistent DSA practice</p>
+  <p><code>BUILD LOOP</code> Inspect → Build → Test → Refine → Ship</p>
 </div>
 
 <br/>
 
-<img src="./assets/systems-matrix.svg" width="100%" alt="Animated Systems Matrix and technology stack" />
+<img src="./assets/level-02-quests.svg" width="100%" alt="Selected quests: MediaForge, Roadmap Tracer, Ghost Engineer, and VibeMaxing" />
+
+<p align="center">
+  <a href="https://github.com/Gurtejhundal/MediaForge"><b>[ MEDIAFORGE ]</b></a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/Gurtejhundal/Roadmap-Tracer"><b>[ ROADMAP TRACER ]</b></a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/Gurtejhundal/Ghost-Engineer"><b>[ GHOST ENGINEER ]</b></a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/Gurtejhundal/VibeMaxing"><b>[ VIBEMAXING ]</b></a>
+</p>
 
 <br/>
 
-<img src="./assets/operating-protocol.svg" width="100%" alt="Animated engineering operating protocol" />
+<img src="./assets/level-03-inventory.svg" width="100%" alt="Player inventory with React, Next.js, Python, FastAPI, Django, PostgreSQL, TypeScript, and product design" />
 
 <br/>
 
-<img src="./assets/telemetry-deck.svg" width="100%" alt="Animated GitHub telemetry deck" />
-
-<a href="https://github.com/Gurtejhundal">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Gurtejhundal&bg_color=0B0D0F&color=A7B0B6&line=FF6B35&point=F3EEE4&area=true&area_color=432217&hide_border=true&radius=8&custom_title=ENGINEERING%20ACTIVITY%20%2F%2F%20FLIGHT%20LOG" width="100%" alt="Gurtejbir Singh GitHub activity" />
-</a>
+<img src="./assets/level-04-loop.svg" width="100%" alt="The build loop: inspect, build, test, refine, and ship" />
 
 <br/>
 
 <div align="center">
-  <sub><code>MISSION CONTROL // BUILD USEFUL THINGS // KEEP THE SIGNAL CLEAN</code></sub>
+  <h3>BONUS STAGE // LIVE ACTIVITY</h3>
+  <a href="https://github.com/Gurtejhundal">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Gurtejhundal&bg_color=0D2238&color=FFF7D6&line=79C850&point=FFD166&area=true&area_color=2B8A3E&hide_border=true&radius=0&custom_title=GURTEJ%27S%20COMMIT%20QUEST" width="100%" alt="Gurtejbir Singh GitHub contribution activity graph" />
+  </a>
 </div>
+
+<div align="center">
+  <a href="https://gurtejbirsingh.vercel.app/">
+    <img src="./assets/level-05-continue.svg" width="100%" alt="Continue the quest: enter Gurtejbir Singh's portfolio or view all repositories" />
+  </a>
+</div>
+
+<p align="center">
+  <a href="https://gurtejbirsingh.vercel.app/"><b>[ A — ENTER PORTFOLIO ]</b></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://github.com/Gurtejhundal?tab=repositories"><b>[ B — ALL REPOSITORIES ]</b></a>
+</p>
+
+<p align="center"><sub><code>PLAYER 01 READY // BUILD USEFUL THINGS // KEEP MOVING RIGHT</code></sub></p>

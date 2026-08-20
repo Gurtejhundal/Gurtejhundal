@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">Level Two — Selected Quests</title>
+  <desc id="desc">Four pixel-art project cards for MediaForge, Roadmap Tracer, Ghost Engineer, and VibeMaxing.</desc>
+  <style>
+    .pixel { font-family: "Courier New", ui-monospace, monospace; font-weight: 900; }
+    .block { animation: bob 1.8s steps(2,end) infinite; transform-box: fill-box; transform-origin: center; }
+    .block-b { animation-delay: .5s; }.block-c { animation-delay: .9s; }
+    @keyframes bob { 50% { transform: translateY(-6px); } }
+    @media (prefers-reduced-motion: reduce) { .block { animation: none; } }
+  </style>
+  <rect width="1200" height="650" fill="#0d2238"/><rect x="18" y="18" width="1164" height="614" fill="#102b46" stroke="#ffd166" stroke-width="6"/>
+  <g fill="#183e61"><rect x="30" y="108" width="1140" height="8"/><rect x="30" y="600" width="1140" height="8"/></g>
+  <g class="pixel"><text x="52" y="65" font-size="18" fill="#79c850" letter-spacing="3">WORLD 2-1</text><text x="52" y="98" font-size="30" fill="#fff7d6" letter-spacing="2">SELECTED QUESTS</text><text x="1148" y="82" text-anchor="end" font-size="16" fill="#9ed2ff">4 LEVELS CLEARED</text></g>
+  <g transform="translate(52 138)">
+    <rect width="532" height="202" fill="#071725" stroke="#5c94fc" stroke-width="5"/><rect width="532" height="12" fill="#5c94fc"/>
+    <g class="block" transform="translate(28 34)"><rect width="68" height="68" fill="#c84c0c"/><rect x="8" y="8" width="52" height="52" fill="#fc9838"/><text x="34" y="50" text-anchor="middle" class="pixel" font-size="42" fill="#fff7d6">M</text></g>
+    <g class="pixel"><text x="120" y="54" font-size="14" fill="#5c94fc" letter-spacing="2">QUEST 01 // LOCAL-FIRST</text><text x="120" y="87" font-size="27" fill="#fff7d6">MEDIAFORGE</text><text x="28" y="132" font-size="15" fill="#b9d9f4">MEDIA, IMAGE, PDF + DOCUMENT TOOLS</text><text x="28" y="160" font-size="14" fill="#79c850">NEXT.JS · TYPESCRIPT · BROWSER PROCESSING</text><text x="28" y="187" font-size="13" fill="#ffd166">POWER-UP: PRIVACY-FIRST WORKFLOWS</text></g>
+  </g>
+  <g transform="translate(616 138)">
+    <rect width="532" height="202" fill="#071725" stroke="#79c850" stroke-width="5"/><rect width="532" height="12" fill="#79c850"/>
+    <g class="block block-b" transform="translate(28 34)"><rect width="68" height="68" fill="#166534"/><rect x="8" y="8" width="52" height="52" fill="#79c850"/><path d="M20 18h28v8H20zm0 14h28v8H20zm0 14h18v8H20z" fill="#fff7d6"/></g>
+    <g class="pixel"><text x="120" y="54" font-size="14" fill="#79c850" letter-spacing="2">QUEST 02 // LEARNING ENGINE</text><text x="120" y="87" font-size="27" fill="#fff7d6">ROADMAP TRACER</text><text x="28" y="132" font-size="15" fill="#b9d9f4">IMPORT → TRACK → EDIT → EXPORT</text><text x="28" y="160" font-size="14" fill="#79c850">REACT · FASTAPI · SQLALCHEMY</text><text x="28" y="187" font-size="13" fill="#ffd166">POWER-UP: LONG-RANGE CONSISTENCY</text></g>
+  </g>
+  <g transform="translate(52 370)">
+    <rect width="532" height="202" fill="#071725" stroke="#b48cff" stroke-width="5"/><rect width="532" height="12" fill="#b48cff"/>
+    <g class="block block-c" transform="translate(28 34)"><rect width="68" height="68" fill="#3b245c"/><rect x="8" y="8" width="52" height="52" fill="#7b4fa8"/><rect x="18" y="20" width="10" height="10" fill="#fff7d6"/><rect x="40" y="20" width="10" height="10" fill="#fff7d6"/><path d="M18 44h32v8H18z" fill="#1a1528"/></g>
+    <g class="pixel"><text x="120" y="54" font-size="14" fill="#b48cff" letter-spacing="2">QUEST 03 // MULTI-AGENT REVIEW</text><text x="120" y="87" font-size="27" fill="#fff7d6">GHOST ENGINEER</text><text x="28" y="132" font-size="15" fill="#b9d9f4">ARCHITECT · DEBUGGER · SECURITY · PRODUCT</text><text x="28" y="160" font-size="14" fill="#b48cff">REPOSITORY CONTEXT · PRIORITIZED RISK</text><text x="28" y="187" font-size="13" fill="#ffd166">POWER-UP: STRUCTURED DISAGREEMENT</text></g>
+  </g>
+  <g transform="translate(616 370)">
+    <rect width="532" height="202" fill="#071725" stroke="#ff6b6b" stroke-width="5"/><rect width="532" height="12" fill="#ff6b6b"/>
+    <g class="block" transform="translate(28 34)"><rect width="68" height="68" fill="#8f1232"/><rect x="8" y="8" width="52" height="52" fill="#d51f48"/><path d="M18 18h32v10H18zm8 14h16v18H26z" fill="#fff7d6"/></g>
+    <g class="pixel"><text x="120" y="54" font-size="14" fill="#ff6b6b" letter-spacing="2">QUEST 04 // WEBSITE AGENTS</text><text x="120" y="87" font-size="27" fill="#fff7d6">VIBEMAXING</text><text x="28" y="132" font-size="15" fill="#b9d9f4">SPECIALIST SKILLS + EXECUTION WORKFLOWS</text><text x="28" y="160" font-size="14" fill="#ff8f8f">RECONSTRUCTION · MOTION · QA · VERIFICATION</text><text x="28" y="187" font-size="13" fill="#ffd166">POWER-UP: PURPOSEFUL INTERFACES</text></g>
+  </g>
+  <g fill="#c84c0c"><rect y="620" width="1200" height="30"/><rect y="620" width="1200" height="8" fill="#fc9838"/></g>
+</svg>
