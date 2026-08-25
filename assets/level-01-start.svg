@@ -48,16 +48,16 @@
   <g transform="translate(910 160)">
     <rect x="-18" y="199" width="176" height="17" fill="#166534"/><rect x="-30" y="182" width="200" height="22" fill="#2b8a3e"/><rect x="-16" y="166" width="172" height="20" fill="#79c850"/>
     <rect x="4" y="200" width="132" height="60" fill="#2b8a3e"/><rect x="22" y="200" width="20" height="60" fill="#79c850"/>
-    <g transform="translate(40)">
-      <rect x="16" width="56" height="12" fill="#6b0f2a"/><rect x="4" y="12" width="80" height="16" fill="#b5173a"/><rect x="-4" y="28" width="88" height="16" fill="#d51f48"/>
-      <rect x="4" y="44" width="80" height="12" fill="#8f1232"/><rect x="12" y="56" width="64" height="12" fill="#6b0f2a"/>
-      <rect x="20" y="68" width="56" height="42" fill="#d78347"/><rect x="28" y="68" width="40" height="34" fill="#f2a05b"/><rect x="60" y="78" width="10" height="8" fill="#fff7d6"/><rect x="64" y="80" width="6" height="6" fill="#1a1624"/>
-      <rect x="16" y="96" width="56" height="28" fill="#17131c"/><rect x="28" y="102" width="36" height="26" fill="#251b25"/>
-      <rect x="16" y="120" width="58" height="50" fill="#f8f6ef"/><rect x="26" y="120" width="12" height="50" fill="#d9dbe0"/>
-      <rect x="64" y="124" width="22" height="44" fill="#f8f6ef"/><rect x="78" y="152" width="20" height="14" fill="#e79450"/>
-      <rect x="4" y="124" width="20" height="44" fill="#f8f6ef"/><rect x="-4" y="152" width="18" height="16" fill="#e79450"/>
-      <rect x="20" y="168" width="52" height="48" fill="#282633"/><rect x="16" y="206" width="22" height="42" fill="#1d1b25"/><rect x="54" y="206" width="22" height="42" fill="#1d1b25"/>
-      <rect x="4" y="244" width="38" height="12" fill="#111018"/><rect x="52" y="244" width="40" height="12" fill="#111018"/><rect x="84" y="148" width="10" height="7" fill="#ffd166"/>
+    <!-- Compact colored sprite traced from the supplied pixel silhouette. -->
+    <g transform="translate(14 4) scale(3)">
+      <path fill="#17131c" d="M8 18h2v2h-2zM12 18h4v2h-4zM12 20h4v2h-4zM18 22h8v2h-8zM18 24h8v2h-8zM20 26h6v2h-6z"/>
+      <path fill="#1d1b25" d="M18 38h22v2h-22zM18 40h22v2h-22zM20 42h20v2h-20zM20 44h20v2h-20zM20 46h18v2h-18zM22 48h16v2h-16zM28 50h8v2h-8z"/>
+      <path fill="#34313f" d="M40 38h2v2h-2zM40 40h2v2h-2zM18 42h2v2h-2zM40 42h2v2h-2zM40 44h2v2h-2zM28 52h8v2h-8z"/>
+      <path fill="#8f1232" d="M12 0h6v2h-6zM30 0h6v2h-6zM10 2h10v2h-10zM28 2h10v2h-10zM10 4h14v2h-14zM26 4h12v2h-12zM10 6h14v2h-14zM26 6h12v2h-12zM8 8h32v2h-32zM8 10h36v2h-36zM8 12h6v2h-6zM30 12h14v2h-14zM6 14h8v2h-8zM30 14h14v2h-14zM6 16h4v2h-4zM36 16h8v2h-8zM6 18h2v2h-2zM28 18h2v2h-2zM36 18h10v2h-10zM6 20h2v2h-2zM28 20h2v2h-2zM38 20h8v2h-8zM2 22h6v2h-6zM38 22h8v2h-8zM0 24h8v2h-8zM38 24h10v2h-10zM0 26h4v2h-4zM6 26h2v2h-2zM38 26h10v2h-10zM6 28h2v2h-2zM38 28h8v2h-8zM2 30h4v2h-4zM8 30h6v2h-6zM32 30h8v2h-8zM42 30h4v2h-4zM0 32h4v2h-4zM46 32h2v2h-2zM0 34h4v2h-4zM46 34h2v2h-2z"/>
+      <path fill="#d51f48" d="M20 2h2v2h-2zM24 4h2v2h-2zM8 6h2v2h-2zM24 6h2v2h-2zM38 6h4v2h-4zM40 8h2v2h-2zM14 12h16v2h-16zM4 14h2v2h-2zM4 16h2v2h-2zM10 16h6v2h-6zM28 16h4v2h-4zM34 16h2v2h-2zM44 16h2v2h-2zM4 18h2v2h-2zM10 18h2v2h-2zM30 18h2v2h-2zM34 18h2v2h-2zM4 20h2v2h-2zM30 20h2v2h-2zM12 22h4v2h-4zM28 22h4v2h-4zM4 26h2v2h-2zM4 28h2v2h-2zM40 30h2v2h-2zM4 32h2v2h-2zM8 32h6v2h-6zM42 32h4v2h-4zM44 34h2v2h-2z"/>
+      <path fill="#d78347" d="M14 14h16v2h-16zM16 16h12v2h-12zM32 16h2v2h-2zM16 18h12v2h-12zM32 18h2v2h-2zM8 20h4v2h-4zM16 20h12v2h-12zM32 20h6v2h-6zM8 22h4v2h-4zM16 22h2v2h-2zM26 22h2v2h-2zM32 22h6v2h-6zM8 24h10v2h-10zM26 24h12v2h-12zM8 26h12v2h-12zM26 26h12v2h-12zM8 28h30v2h-30zM14 30h18v2h-18z"/>
+      <path fill="#d9dbe0" d="M36 32h6v2h-6zM38 36h4v2h-4z"/>
+      <path fill="#f8f6ef" d="M20 32h16v2h-16zM18 34h20v2h-20zM18 36h20v2h-20z"/>
     </g>
   </g>
   <g transform="translate(646 332)"><rect width="54" height="54" fill="#c84c0c"/><rect x="6" y="6" width="42" height="42" fill="#fc9838"/><text x="27" y="41" text-anchor="middle" class="pixel" font-size="36" fill="#fff7d6">?</text></g>
