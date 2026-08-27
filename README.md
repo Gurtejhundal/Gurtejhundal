@@ -44,10 +44,16 @@
 <br/>
 
 <div align="center">
-  <h3>BONUS STAGE // LIVE ACTIVITY</h3>
+  <h3>WORLD 5-1 // PAC-MAN CONTRIBUTION RUN</h3>
+  <p><code>LIVE MAP</code> Each pellet is powered by real GitHub contribution activity.</p>
   <a href="https://github.com/Gurtejhundal">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Gurtejhundal&bg_color=0D2238&color=FFF7D6&line=79C850&point=FFD166&area=true&area_color=2B8A3E&hide_border=true&radius=0&custom_title=GURTEJ%27S%20COMMIT%20QUEST" width="100%" alt="Gurtejbir Singh GitHub contribution activity graph" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gurtejhundal/Gurtejhundal/output/pacman-contribution-graph-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gurtejhundal/Gurtejhundal/output/pacman-contribution-graph.svg" />
+      <img src="https://raw.githubusercontent.com/Gurtejhundal/Gurtejhundal/output/pacman-contribution-graph.svg" width="100%" alt="Animated Pac-Man game traversing Gurtejbir Singh's GitHub contribution graph" />
+    </picture>
   </a>
+  <p><sub><code>AUTO-SAVES DAILY // CONTRIBUTIONS BECOME PELLETS // KEEP THE STREAK ALIVE</code></sub></p>
 </div>
 
 <div align="center">
