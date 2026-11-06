@@ -1,71 +1,63 @@
 <div align="center">
   <a href="https://gurtejbirsingh.vercel.app/">
-    <img src="./assets/level-01-start.svg" width="100%" alt="Gurtejbir Singh — full-stack engineer and AI builder in an eight-bit platform game world" />
+    <img src="./assets/level-01-start.svg" width="100%" alt="Super Gurtej World — Gurtejbir Singh, full-stack engineer and AI builder. Mario jumps for a Super Mushroom above the Mushroom Kingdom." />
   </a>
 </div>
 
 <p align="center">
-  <a href="https://gurtejbirsingh.vercel.app/"><b>[ START GAME — PORTFOLIO ]</b></a>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="https://github.com/Gurtejhundal?tab=repositories"><b>[ LEVEL SELECT — REPOSITORIES ]</b></a>
+  <a href="https://gurtejbirsingh.vercel.app/"><b>▶ START — PORTFOLIO</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/Gurtejhundal?tab=repositories"><b>▦ LEVEL SELECT — REPOSITORIES</b></a>
 </p>
-
-<div align="center">
-  <img src="./assets/player-gurtej.png" width="210" alt="Pixel-art player character of Gurtejbir Singh wearing a maroon turban, white shirt, and dark trousers" />
-  <h3>PLAYER 01 // GURTEJBIR SINGH</h3>
-  <p><code>CLASS</code> Full-stack engineer + AI builder</p>
-  <p><code>FOCUS</code> Product systems · developer tools · local-first software · purposeful interfaces</p>
-  <p><code>CURRENT QUEST</code> Deeper systems · stronger product execution · consistent DSA practice</p>
-  <p><code>BUILD LOOP</code> Inspect → Build → Test → Refine → Ship</p>
-</div>
-
-<br/>
-
-<img src="./assets/level-02-quests.svg" width="100%" alt="Selected quests: MediaForge, Roadmap Tracer, Ghost Engineer, and VibeMaxing" />
 
 <p align="center">
-  <a href="https://github.com/Gurtejhundal/MediaForge"><b>[ MEDIAFORGE ]</b></a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/Gurtejhundal/Roadmap-Tracer"><b>[ ROADMAP TRACER ]</b></a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/Gurtejhundal/Ghost-Engineer"><b>[ GHOST ENGINEER ]</b></a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/Gurtejhundal/VibeMaxing"><b>[ VIBEMAXING ]</b></a>
+  I’m <b>Gurtejbir Singh</b>. I turn messy workflows into useful, shipped software.<br/>
+  Product systems · developer tools · local-first software · purposeful interfaces<br/>
+  <sub><b>CURRENT QUEST</b> &nbsp; Deeper systems · stronger product execution · consistent DSA practice</sub>
 </p>
 
 <br/>
 
-<img src="./assets/level-03-inventory.svg" width="100%" alt="Player inventory with React, Next.js, Python, FastAPI, Django, PostgreSQL, TypeScript, and product design" />
+<img src="./assets/level-02-quests.svg" width="100%" alt="World 1-2: Choose your adventure. Four project stages with Super Mushroom, Fire Flower, Super Star and coin power-ups." />
+
+<p align="center">
+  <a href="https://github.com/Gurtejhundal/MediaForge"><b>① MEDIAFORGE</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Gurtejhundal/Roadmap-Tracer"><b>② ROADMAP TRACER</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Gurtejhundal/Ghost-Engineer"><b>③ GHOST ENGINEER</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Gurtejhundal/VibeMaxing"><b>④ VIBEMAXING</b></a>
+</p>
 
 <br/>
 
-<img src="./assets/level-04-loop.svg" width="100%" alt="The build loop: inspect, build, test, refine, and ship" />
+<img src="./assets/level-03-inventory.svg" width="100%" alt="World 1-3: The underground power-up room. React, Next.js, Python, FastAPI, Django, TypeScript, Vite, Tailwind, PostgreSQL and SQLite. Bonus items: Git, Docker, Vercel, Figma and product design." />
+
+<br/>
+
+<img src="./assets/level-04-loop.svg" width="100%" alt="World 1-4: Every ship is a level up. Mario’s five checkpoints: Inspect, Build, Test, Refine and Ship." />
 
 <br/>
 
 <div align="center">
-  <h3>WORLD 5-1 // PAC-MAN CONTRIBUTION RUN</h3>
-  <p><code>LIVE MAP</code> Each pellet is powered by real GitHub contribution activity.</p>
-  <a href="https://github.com/Gurtejhundal">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gurtejhundal/Gurtejhundal/output/pacman-contribution-graph-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gurtejhundal/Gurtejhundal/output/pacman-contribution-graph.svg" />
-      <img src="https://raw.githubusercontent.com/Gurtejhundal/Gurtejhundal/output/pacman-contribution-graph.svg" width="100%" alt="Animated Pac-Man game traversing Gurtejbir Singh's GitHub contribution graph" />
-    </picture>
-  </a>
-  <p><sub><code>AUTO-SAVES DAILY // CONTRIBUTIONS BECOME PELLETS // KEEP THE STREAK ALIVE</code></sub></p>
+  <img src="./assets/mario-contributions.svg" width="100%" alt="World 1-5: Mario Contribution Run. Mario collects coins and jumps over a Goomba, brick and pipe beneath my real GitHub contribution calendar. Updated daily." />
+  <p><sub><code>REAL CONTRIBUTIONS · DAILY AUTO-SAVE · KEEP MOVING RIGHT</code></sub></p>
+  <p>The README level plays itself. Want the controls? <a href="./game/">Get the playable Mario mini-game →</a></p>
 </div>
+
+<br/>
 
 <div align="center">
   <a href="https://gurtejbirsingh.vercel.app/">
-    <img src="./assets/level-05-continue.svg" width="100%" alt="Continue the quest: enter Gurtejbir Singh's portfolio or view all repositories" />
+    <img src="./assets/level-05-continue.svg" width="100%" alt="World clear! Mario reaches the castle and Super Star flag. Thank you, player. Keep building. Keep going." />
   </a>
 </div>
 
 <p align="center">
-  <a href="https://gurtejbirsingh.vercel.app/"><b>[ A — ENTER PORTFOLIO ]</b></a>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="https://github.com/Gurtejhundal?tab=repositories"><b>[ B — ALL REPOSITORIES ]</b></a>
+  <a href="https://gurtejbirsingh.vercel.app/"><b>[ A ] ENTER PORTFOLIO</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/Gurtejhundal?tab=repositories"><b>[ B ] NEXT ADVENTURE</b></a>
 </p>
 
-<p align="center"><sub><code>PLAYER 01 READY // BUILD USEFUL THINGS // KEEP MOVING RIGHT</code></sub></p>
+<p align="center"><sub>Made with a love of building and a little Mushroom Kingdom magic.<br/>Unofficial fan art. Mario and Super Mario are Nintendo trademarks.</sub></p>
