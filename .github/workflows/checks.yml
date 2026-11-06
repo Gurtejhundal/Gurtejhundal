@@ -1,0 +1,31 @@
+name: Check profile and game
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "game/**"
+      - "tests/**"
+      - "assets/**"
+      - "README.md"
+      - ".github/workflows/**"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Check SVGs, README links, contribution renderer and shared art
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
+      - name: Check platformer mechanics
+        run: node --test tests/game.test.cjs
+      - name: Check reproducible artwork
+        run: |
+          python3 scripts/build_profile.py
+          git diff --exit-code -- assets/level-*.svg game/sprites.js

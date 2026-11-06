@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#5c94fc">
+  <title>Super Gurtej World · Mario Run</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="sprites.js" defer></script>
+  <script src="engine.js" defer></script>
+  <script src="game.js" defer></script>
+</head>
+<body>
+  <main>
+    <nav aria-label="Main navigation"><a href="https://github.com/Gurtejhundal">← PLAYER PROFILE</a><a href="https://gurtejbirsingh.vercel.app/">PORTFOLIO ↗</a></nav>
+    <header><p class="eyebrow">PLAYER 01 / GURTEJBIR SINGH</p><h1>SUPER <span>GURTEJ</span> WORLD</h1><p>A little break between builds. Collect coins, stomp Goombas, reach the flag.</p></header>
+    <section class="cabinet" aria-label="Mario platform game">
+      <div class="hud"><div>SCORE<strong id="score">000000</strong></div><div>COINS<strong id="coins">× 00</strong></div><div>WORLD<strong>1-1</strong></div><div>LIVES<strong id="lives">× 3</strong></div><div>TIME<strong id="time">300</strong></div></div>
+      <div class="stage" id="stage" tabindex="0" aria-label="Game area. Use arrows or A and D to move, Space or W to jump. P to pause. R to restart.">
+        <canvas id="game" width="960" height="480" aria-label="A side-scrolling Mario level with brick platforms, pipes, coins, Goombas and a castle.">Your browser needs Canvas support to play.</canvas>
+        <div class="overlay" id="overlay"><p class="eyebrow" id="overlay-label">WORLD 1-1</p><h2 id="overlay-title">LET’S-A GO!</h2><p id="overlay-copy">A whole Mushroom Kingdom ahead of you.</p><button id="start" type="button">▶ START GAME</button></div>
+      </div>
+      <div class="toolbar"><span id="best">BEST 000000</span><span id="power">SMALL MARIO</span><div><button id="sound" type="button" aria-pressed="false">SOUND OFF</button><button id="pause" type="button" disabled>PAUSE</button><button id="restart" type="button">RESTART</button></div></div>
+    </section>
+    <div class="touch" aria-label="Touch controls"><div><button type="button" data-control="left" aria-label="Move left">◀</button><button type="button" data-control="right" aria-label="Move right">▶</button></div><button type="button" data-control="jump" aria-label="Jump">JUMP ↑</button></div>
+    <p class="instructions"><kbd>←</kbd> <kbd>→</kbd> or <kbd>A</kbd> <kbd>D</kbd> MOVE <span>·</span> <kbd>SPACE</kbd> JUMP <span>·</span> <kbd>P</kbd> PAUSE <span>·</span> <kbd>R</kbd> RESTART</p>
+    <p id="status" class="sr-only" aria-live="polite">Ready to play.</p>
+    <footer><p>Built for the love of building. Keep moving right.</p><small>An unofficial fan-made mini-game. Mario and Super Mario are Nintendo trademarks.</small></footer>
+  </main>
+</body>
+</html>
