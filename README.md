@@ -41,9 +41,9 @@
 <br/>
 
 <div align="center">
-  <img src="./assets/mario-contributions.svg" width="100%" alt="World 1-5: Mario Contribution Run. Mario collects coins and jumps over a Goomba, brick and pipe beneath my real GitHub contribution calendar. Updated daily." />
-  <p><sub><code>REAL CONTRIBUTIONS · DAILY AUTO-SAVE · KEEP MOVING RIGHT</code></sub></p>
-  <p>The README level plays itself. Want the controls? <a href="./game/">Get the playable Mario mini-game →</a></p>
+  <img src="./assets/mario-contributions.svg" width="100%" alt="World 1-5: The Kingdom You Built. Twelve real GitHub activity weeks become Mario terrain. Each brick row is an active day; coin bundles contain exact weekly contribution counts." />
+  <p><sub><code>1 COIN = 1 CONTRIBUTION · 1 RAISED ROW = 1 ACTIVE DAY · LAST 12 WEEKS</code></sub></p>
+  <p>My work builds the terrain. Mario collects each week’s contributions and carries them to the flag.<br/><sub>Automatic replay above · <a href="./game/">Download and play this same activity-built world</a></sub></p>
 </div>
 
 <br/>

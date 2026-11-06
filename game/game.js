@@ -5,11 +5,9 @@
   ctx.imageSmoothingEnabled = false;
   const { palette, sprites } = window.MARIO_ART;
   const { Game, FLOOR } = window.MarioEngine;
-  let best = 0;
-  try { best = Number(localStorage.getItem('super-gurtej-best')) || 0; } catch (_) { /* Storage is optional. */ }
   canvas.width = window.matchMedia('(max-width:600px)').matches ? 480 : 960;
-  const game = new Game(best, canvas.width), keys = { left: false, right: false, jump: false };
-  let previousState = '', sound = false, audio, savedBest = best;
+  const game = new Game(window.MARIO_WORLD, canvas.width), keys = { left: false, right: false, jump: false };
+  let previousState = '', sound = false, audio;
   const images = {};
   for (const [name, rows] of Object.entries(sprites)) {
     const image = document.createElement('canvas'); image.width = Math.max(...rows.map(v => v.length)); image.height = rows.length;
@@ -28,12 +26,6 @@
     rect(x, y, w, 2, '#fff5db');rect(x, y + 15, w, 2, '#241510');
     rect(x, y, 2, 16, '#241510');rect(x + 16, y + 17, 2, 15, '#241510');
     rect(x, y + 30, w, 2, '#241510');
-  }
-  function pipe(x, y, w, h) {
-    rect(x + 5, y + 17, w - 10, h - 17, '#241510');
-    rect(x + 8, y + 20, w - 16, h - 20, '#16852b');
-    rect(x + 11, y + 20, 9, h - 20, '#baf95b');rect(x + 24, y + 20, 5, h - 20, '#58c830');
-    rect(x, y, w, 22, '#241510');rect(x + 3, y + 3, w - 6, 15, '#58c830');rect(x + 7, y + 4, w - 14, 3, '#baf95b');
   }
   function castle(x) {
     for (let row = 0; row < 4; row++) for (let col = 0; col < 5; col++) brick(x + col * 32, FLOOR - 128 + row * 32);
@@ -55,43 +47,60 @@
       image('bush', x + 210, FLOOR - 24, 104, 24);
     }
     ctx.save();ctx.translate(-Math.round(camera), 0);
-    castle(3712);
-    rect(3648, 180, 4, FLOOR - 180, '#fff5db');rect(3643, 170, 14, 12, '#58c830');
-    rect(3613, 188, 35, 27, '#fff5db');image('star', 3620, 191, 21, 21);
+    castle(game.width - 176);
+    const flagX = game.flagX + 36;
+    rect(flagX, 180, 4, FLOOR - 180, '#fff5db');rect(flagX - 5, 170, 14, 12, '#58c830');
+    rect(flagX - 35, 188, 35, 27, '#fff5db');image('star', flagX - 28, 191, 21, 21);
     for (const s of game.solids) {
-      if (s.x + s.w < camera || s.x > camera + 960) continue;
-      if (s.kind === 'ground') { brick(s.x, s.y);brick(s.x, s.y + 32); }
-      else if (s.kind === 'pipe') pipe(s.x, s.y, s.w, s.h);
-      else if (s.kind === 'question') {
-        rect(s.x, s.y, 32, 32, '#241510');rect(s.x + 2, s.y + 2, 28, 28, s.used ? '#9b6138' : '#ef8c27');rect(s.x + 4, s.y + 4, 24, 2, '#ffdc59');
-        if (!s.used) { ctx.font = 'bold 25px monospace';ctx.fillStyle = '#fff5db';ctx.fillText('?', s.x + 8, s.y + 25); }
+      if (s.x + s.w < camera || s.x > camera + canvas.width) continue;
+      // Every raised row corresponds to one active day, exactly as in the SVG.
+      if (s.kind === 'week') {
+        rect(s.x, s.y, s.w, FLOOR - s.y, '#c86b32');
+        for (let row = 0; row < s.rows; row++) {
+          const y = s.y + row * 12;
+          rect(s.x, y + 10, s.w, 2, '#713a25');
+          for (let x = s.x + (row % 2 ? 24 : 0); x < s.x + s.w; x += 48) rect(x, y, 2, 12, '#713a25');
+        }
+        if (s.rows) rect(s.x, s.y, s.w, 3, '#ffdc59');
+        ctx.textAlign = 'center';ctx.font = 'bold 13px monospace';
+        ctx.fillStyle = '#fff5db';ctx.fillText('WEEK ' + String(s.index + 1).padStart(2, '0'), s.x + s.w / 2, s.y - 108);
+      }
+      for (let x = s.x; x < s.x + s.w; x += 32) brick(x, FLOOR);
+    }
+    // Date labels sit on a dedicated strip rather than disappearing into the floor.
+    for (const s of game.solids) if (s.kind === 'week') {
+      rect(s.x, 448, s.w, 32, '#132543');
+      const w = game.world.weeks[s.index];ctx.textAlign = 'center';ctx.font = 'bold 10px monospace';ctx.fillStyle = '#c8ddff';
+      ctx.fillText(w.start, s.x + s.w / 2, 460);ctx.fillStyle = '#ffdc59';
+      ctx.fillText(w.count + ' COINS / ' + w.activeDays + ' DAYS', s.x + s.w / 2, 474);
+    }
+    for (const item of game.pickups) {
+      if (item.alive) {
+        image('coin', item.x, item.y, item.w, item.h);
+        ctx.textAlign = 'center';ctx.font = 'bold 14px monospace';ctx.fillStyle = '#172c55';ctx.fillText('+' + item.value, item.x + 12, item.y - 10);
       } else {
-        for (let y = s.y; y < s.y + s.h; y += 32) brick(s.x, y, 32, 32, s.kind === 'step');
+        ctx.textAlign = 'center';ctx.font = 'bold 12px monospace';ctx.fillStyle = '#172c55';ctx.fillText('BANKED ' + item.value, item.x + 12, item.y + 14);
       }
     }
-    for (const item of game.pickups) if (item.alive) image(item.kind, item.x, item.y, item.w, item.h);
-    for (const e of game.enemies) if (e.alive) image('goomba', e.x, e.y, e.w, e.h, Math.floor(game.tickCount / 9) % 2 === 0);
-    for (const v of game.particles) image('coin', v.x, v.y, 20, 28);
     const p = game.player;
-    if (!p.invincible || Math.floor(p.invincible / 5) % 2 === 0 || game.state !== 'playing') {
-      const bounce = p.grounded && Math.abs(p.vx) > 0.8 ? Math.floor(game.tickCount / 6) % 2 : 0;
-      image('mario', p.x - 2, p.y - bounce - (p.shield ? 8 : 0), 32, p.shield ? 40 : 32, p.facing < 0);
-    }
+    const bounce = p.grounded && Math.abs(p.vx) > 0.8 ? Math.floor(game.tickCount / 6) % 2 : 0;
+    image('mario', p.x - 2, p.y - bounce, 32, 32, p.facing < 0);
     ctx.restore();
-    $('score').textContent = String(game.score).padStart(6, '0');
-    $('coins').textContent = '× ' + String(game.coins).padStart(2, '0');
-    $('lives').textContent = '× ' + game.lives;$('time').textContent = Math.ceil(game.time);
-    $('best').textContent = 'BEST ' + String(game.best).padStart(6, '0');
-    $('power').textContent = p.shield ? 'SUPER MARIO' : 'SMALL MARIO';
+    $('coins').textContent = game.coins + ' / ' + game.world.total;
+    $('active-days').textContent = game.world.activeDays;
+    $('progress').textContent = game.visited.size + ' / 12';
+    const week = game.world.weeks[game.weekIndex];
+    $('week-detail').textContent = week.start + ' TO ' + week.end + ' · ' + week.count + ' CONTRIBUTIONS · ' + week.activeDays + ' ACTIVE DAYS';
     $('pause').disabled = !['playing', 'paused'].includes(game.state);
     $('pause').textContent = game.state === 'paused' ? 'RESUME' : 'PAUSE';
     if (previousState !== game.state) {
       previousState = game.state;
+      const remaining = game.pickups.filter(v => v.alive).length;
       const details = {
-        ready: ['WORLD 1-1', 'LET’S-A GO!', 'A whole Mushroom Kingdom ahead of you.', '▶ START GAME'],
-        paused: ['TAKE A BREATHER', 'GAME PAUSED', 'Your adventure will be right here.', '▶ RESUME'],
-        over: ['TRY ANOTHER ROUTE', 'GAME OVER', `You collected ${game.coins} coins and scored ${game.score}.`, '↻ TRY AGAIN'],
-        won: ['WORLD 1-1 CLEAR', 'COURSE CLEAR!', `You made it! ${game.score} points. The next build awaits.`, '▶ PLAY AGAIN'],
+        ready: ['YOUR WORK BUILT THIS', 'PLAY MY LAST 12 WEEKS', `${game.world.total} contributions became ${game.world.total} coins. Collect every weekly bundle, then reach the flag.`, '▶ START GAME'],
+        paused: ['TAKE YOUR TIME', 'GAME PAUSED', 'Your collected contributions are safe.', '▶ RESUME'],
+        review: ['SOMETHING LEFT TO EXPLORE', `${remaining} BUNDLE${remaining === 1 ? '' : 'S'} LEFT`, 'Move left to find the remaining weekly contributions, then return to the flag.', '◀ KEEP EXPLORING'],
+        won: ['EVERY CONTRIBUTION COUNTS', 'WORLD COMPLETE!', `${game.coins} real contributions collected. You explored the kingdom your work built.`, '▶ PLAY AGAIN'],
       };
       $('overlay').hidden = game.state === 'playing';
       if (details[game.state]) {
@@ -99,11 +108,7 @@
         $('overlay-label').textContent = d[0];$('overlay-title').textContent = d[1];$('overlay-copy').textContent = d[2];$('start').textContent = d[3];
         $('status').textContent = d[1] + ' ' + d[2];
         if (game.state !== 'ready') $('start').focus({ preventScroll: true });
-      } else $('status').textContent = 'Game started. Collect coins and reach the flag.';
-    }
-    if (game.best > savedBest) {
-      savedBest = game.best;
-      try { localStorage.setItem('super-gurtej-best', String(savedBest)); } catch (_) { /* Storage is optional. */ }
+      } else $('status').textContent = 'Game started. Collect each weekly contribution bundle and reach the flag.';
     }
   }
   function beep(event) {
@@ -119,6 +124,7 @@
   function play() {
     clearInput();
     if (game.state === 'paused') game.pause();
+    else if (game.state === 'review') game.continueExploring();
     else { if (game.state !== 'ready') game.reset();game.start(); }
     if (audio) audio.resume().catch(() => {});
     stage.focus({ preventScroll: true });render();
